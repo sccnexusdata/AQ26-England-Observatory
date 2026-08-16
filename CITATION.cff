@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use AQ26 outputs, cite the specific governed release and its PUBLIC_RELEASE_MANIFEST.json as well as this repository."
+title: "AQ26 England Air Quality Observatory"
+type: software
+authors:
+  - name: "SCC Nexus Data"
+repository-code: "https://github.com/sccnexusdata/AQ26-England-Observatory"
+url: "https://github.com/sccnexusdata/AQ26-England-Observatory"
+abstract: >-
+  Public evidence, methodology and reproducibility surface for an independent,
+  England-wide air-quality and environmental evidence observatory. AQ26 combines
+  official monitoring observations with meteorological, emissions, satellite,
+  modelled and contextual evidence under explicit provenance and scientific-claim
+  controls.
+keywords:
+  - air quality
+  - environmental monitoring
+  - England
+  - reproducibility
+  - provenance
+  - atmospheric science
+license: "NOASSERTION"
