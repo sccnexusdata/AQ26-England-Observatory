@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "release_state": "withheld_pending_reconciliation",
+  "generated_utc": "2026-08-16T08:30:00Z",
+  "source": {
+    "repository_role": "private_aq26_scientific_engine",
+    "source_commit": null,
+    "source_run_id": null
+  },
+  "scientific_boundary": "No public scientific release is present yet. The first export is withheld pending reconciliation of identified public metrics and successful governed release testing.",
+  "files": []
+}
