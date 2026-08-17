@@ -2,7 +2,7 @@
   "analytics_requires_consent": true,
   "campaign_type": "england_network_review",
   "external_endorsement_claimed": false,
-  "generated_at_utc": "2026-08-17T13:00:40+00:00",
+  "generated_at_utc": "2026-08-17T16:01:57+00:00",
   "impact_page": {
     "bytes": 21832,
     "path": "impact-and-use.html",
@@ -54,7 +54,7 @@
   "schema": "aq26_impact_delivery_receipt_v1",
   "social_summary": {
     "path": "assets/social/aq26-weekly-card.json",
-    "sha256": "995bfee15a2c38851672408724d2c41230ceac2259f1d44be4d858e818ff720a"
+    "sha256": "86a1487a1c4130e1bb6986094bbb469cbef19d2d5fdb86111f40e41298223ba4"
   },
   "status": "pass"
 }

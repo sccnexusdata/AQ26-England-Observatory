@@ -22,7 +22,7 @@
     "status": "not_assessable_incomplete_england_coverage"
   },
   "claim_boundary": "Screening evidence only — no source attribution, causal finding, permit-breach determination, exposure estimate or health conclusion.",
-  "contract_sha256": "4bc7b2e9bbf0a23902f81ab786df1352bd967053b22d1b9d9e7d7e986852df80",
+  "contract_sha256": "94c22935ca701e18f8dcf3d0f158ceebefef4ec8c0200850c224d841de0f8972",
   "convergence": {
     "applicable_join_count": 0,
     "catalogue_pending_is_episode_evidence": false,
@@ -78,7 +78,7 @@
         "label": "eligible PM2.5 screening assessments",
         "scope": "current operational PM2.5 screen",
         "unit": "assessments",
-        "value": 118
+        "value": 116
       },
       "england_active_aurn_sites": {
         "definition": "Active English AURN sites discovered for the completed 30-day official-monitoring review.",
@@ -127,14 +127,14 @@
         "label": "fresh resolved physical monitoring sites",
         "scope": "current live monitoring screen",
         "unit": "physical sites",
-        "value": 127
+        "value": 124
       },
       "fresh_pollutant_streams": {
         "definition": "Configured streams with recent usable observations inside the declared freshness window.",
         "label": "fresh pollutant time series",
         "scope": "current live monitoring screen",
         "unit": "time series",
-        "value": 227
+        "value": 222
       },
       "numeric_reporting_sites": {
         "definition": "Resolved physical sites with at least one numeric observation in the current provider response.",
@@ -172,12 +172,12 @@
       "fresh_physical_site_coverage_pct": {
         "denominator": "resolved_physical_sites",
         "numerator": "fresh_physical_sites",
-        "value": 94.8
+        "value": 92.5
       },
       "fresh_stream_coverage_pct": {
         "denominator": "configured_pollutant_streams",
         "numerator": "fresh_pollutant_streams",
-        "value": 95.0
+        "value": 92.9
       }
     },
     "rule": "Every public percentage must name one numerator key and one denominator key from this registry.",
@@ -217,10 +217,10 @@
       "PM2.5": 28
     }
   },
-  "generated_at_utc": "2026-08-17T12:59:37+00:00",
+  "generated_at_utc": "2026-08-17T16:00:51+00:00",
   "measurement": {
-    "analysis_excluded_observation_count": 836,
-    "analysis_window_valid_observation_count": 16133,
+    "analysis_excluded_observation_count": 862,
+    "analysis_window_valid_observation_count": 15868,
     "catalogued_candidate_site_count": 134,
     "count_definitions": {
       "analysis_excluded_observation_count": "Downloaded numeric observations excluded from the analysis window or project quality rules.",
@@ -236,49 +236,49 @@
     },
     "count_reconciliation_passed": true,
     "data_capture_percent": 100.0,
-    "eligible_pm25_screening_assessment_count": 118,
+    "eligible_pm25_screening_assessment_count": 116,
     "empty_timeseries_count": 3,
-    "fresh_physical_site_count": 127,
-    "fresh_physical_site_coverage_pct": 95,
-    "fresh_timeseries_count": 227,
+    "fresh_physical_site_count": 124,
+    "fresh_physical_site_coverage_pct": 93,
+    "fresh_timeseries_count": 222,
     "freshness_diagnostic": {
       "claim_boundary": "This diagnostic concerns data recency and provider/network timing only. It does not describe air quality, source contribution, compliance, exposure or health risk.",
-      "fresh_reporting_site_count": 127,
+      "fresh_reporting_site_count": 124,
       "freshness_threshold_hours": 4.0,
       "interpretation": "Some reporting sites met the freshness threshold and others did not.",
       "lag_pattern": "mixed_fresh_and_stale_sites",
-      "median_reporting_age_hours": 1.985,
-      "newest_reporting_age_hours": 1.985,
+      "median_reporting_age_hours": 2.005,
+      "newest_reporting_age_hours": 2.005,
       "no_numeric_data_site_count": 2,
-      "oldest_reporting_age_hours": 56.985,
+      "oldest_reporting_age_hours": 60.005,
       "reporting_site_count": 132,
-      "similar_timestamp_cluster_share": 0.947,
-      "stale_reporting_site_count": 5,
+      "similar_timestamp_cluster_share": 0.939,
+      "stale_reporting_site_count": 8,
       "status": "partial_freshness"
     },
     "identified_physical_site_count": 134,
-    "median_reporting_age_hours": 1.985,
-    "newest_reporting_age_hours": 1.985,
-    "oldest_reporting_age_hours": 56.985,
+    "median_reporting_age_hours": 2.005,
+    "newest_reporting_age_hours": 2.005,
+    "oldest_reporting_age_hours": 60.005,
     "physical_site_count": 134,
     "pollutant_label": "PM₁₀ and PM₂.₅",
     "pollutants": {
       "pm10": 111,
       "pm2_5": 128
     },
-    "provider_expected_slot_count": 16969,
+    "provider_expected_slot_count": 16730,
     "provider_lag_pattern": "mixed_fresh_and_stale_sites",
     "provider_missing_slot_count": 0,
-    "provider_numeric_observation_count": 16969,
+    "provider_numeric_observation_count": 16730,
     "provider_site_identity_count": 134,
-    "quality_accepted_data_capture_percent": 95.1,
+    "quality_accepted_data_capture_percent": 94.8,
     "quality_flags": {
-      "incomplete_24h": 7,
-      "invalid_latest_values": 15,
+      "incomplete_24h": 8,
+      "invalid_latest_values": 18,
       "missing_coordinates": 0,
-      "negative_sentinels_removed": 22,
+      "negative_sentinels_removed": 28,
       "no_recent_values": 3,
-      "stale_over_4h": 9
+      "stale_over_4h": 14
     },
     "reporting_physical_site_count": 132,
     "reporting_provider_site_identity_count": 132,

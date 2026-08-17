@@ -24,7 +24,7 @@
       "role": "monitoring_context_only",
       "credential_status": "not_required",
       "collector_status": "Quality checks passed; target linkage pending",
-      "records_or_targets": 806,
+      "records_or_targets": 827,
       "next_action": "Complete comparator, meteorology and competing-source validation."
     },
     {
@@ -344,7 +344,7 @@
       "role": "wildfire_and_burning_confounder",
       "credential_status": "present",
       "collector_status": "Records downloaded; validation pending",
-      "records_or_targets": 1988,
+      "records_or_targets": 2003,
       "next_action": "Validate schema, units, time basis, quality flags and lineage."
     },
     {

@@ -7,7 +7,7 @@
       "note": "current primary-source measurement streams"
     },
     {
-      "count": 127,
+      "count": 124,
       "label": "Fresh identifiable physical sites",
       "note": "sites, not pollutant series"
     },
@@ -170,7 +170,7 @@
   "summary_metrics": {
     "drive_inventory": 0,
     "executed_cross_source_joins": 0,
-    "fresh_physical_sites": 127,
+    "fresh_physical_sites": 124,
     "legacy_archive_inventory": 0,
     "official_permit_or_filing_records": 0,
     "primary_measurement_timeseries": 239,

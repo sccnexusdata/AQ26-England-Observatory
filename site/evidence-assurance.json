@@ -1,6 +1,6 @@
 {
   "schema": "aq26_evidence_assurance_presence_v1",
-  "generated_at_utc": "2026-08-17T13:00:37+00:00",
+  "generated_at_utc": "2026-08-17T16:01:54+00:00",
   "framework_public_name": "AQ26 Evidence Assurance Framework",
   "technical_shorthand": "VVIP",
   "definitions": {
@@ -10,7 +10,7 @@
     "provenance": "Every public result remains traceable through source, transformation, artifact, deployment and publication."
   },
   "release_context": {
-    "generated_at_utc": "2026-08-17T12:59:37+00:00",
+    "generated_at_utc": "2026-08-17T16:00:51+00:00",
     "run_mode": "weekly",
     "harvest": "passed",
     "scientific": "not_applicable_no_screening_events",

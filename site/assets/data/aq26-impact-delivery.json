@@ -8,7 +8,7 @@
     "communities"
   ],
   "external_endorsement_claimed": false,
-  "generated_at_utc": "2026-08-17T13:00:40+00:00",
+  "generated_at_utc": "2026-08-17T16:01:57+00:00",
   "interaction": {
     "analytics_event": "aq26_impact_action",
     "analytics_requires_consent": true,
@@ -35,7 +35,7 @@
       "configured_target_pollutant_station_count": 142,
       "expected_configured_pollutant_day_observations": 9900,
       "expected_configured_stream_days": 9900,
-      "fresh_physical_sites": 127,
+      "fresh_physical_sites": 124,
       "identified_physical_sites": 134,
       "monitoring_timeseries": 239,
       "period_end": "2026-08-16",

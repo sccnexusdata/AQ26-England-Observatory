@@ -1,0 +1,38 @@
+{
+  "schema": "aq26_retrospective_pm25_case_study_v1",
+  "case_date": "2026-07-17",
+  "case_type": "retrospective_multi_region_pm25_context_day",
+  "source_review_period_start": "2026-07-17",
+  "source_review_period_end": "2026-08-15",
+  "station_rows": 124,
+  "valid_station_daily_means": 121,
+  "who_2021_pm25_24h_context_crossings": 80,
+  "regions_with_valid_pm25": [
+    "East Midlands",
+    "East of England",
+    "London",
+    "North East",
+    "North West",
+    "South East",
+    "South West",
+    "West Midlands",
+    "Yorkshire and the Humber"
+  ],
+  "regions_with_context_crossings": [
+    "East Midlands",
+    "East of England",
+    "London",
+    "North East",
+    "North West",
+    "South East",
+    "South West",
+    "West Midlands",
+    "Yorkshire and the Humber"
+  ],
+  "maximum_valid_daily_mean_ug_m3": 24.171,
+  "maximum_station_name": "Manchester Piccadilly",
+  "data_statuses": [
+    "contains_provisional"
+  ],
+  "scientific_boundary": "This frozen case is descriptive. A multi-region PM2.5 pattern or WHO-context crossing does not establish source attribution, causation, individual exposure, health effect, permit breach or legal non-compliance."
+}
