@@ -1,0 +1,439 @@
+{
+  "status": "source_utilisation_v5_single_canonical_registry",
+  "target_count": 0,
+  "purpose": "Single source of truth generated from the complete API/source registry. Disabled archives, credentials, connectivity, metadata, downloaded records, schema validation, quality validation and production usability remain distinct.",
+  "sources": [
+    {
+      "source": "Defra UK-AIR Sensor Observation Service",
+      "role": "ground_measurement",
+      "credential_status": "not_required",
+      "collector_status": "Production usable within stated limitations",
+      "records_or_targets": 239,
+      "next_action": "Use only within documented scientific and claim boundaries."
+    },
+    {
+      "source": "Defra UK-AIR Atom downloads",
+      "role": "monitoring_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 0,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "Imperial College London LAQN API",
+      "role": "monitoring_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Quality checks passed; target linkage pending",
+      "records_or_targets": 806,
+      "next_action": "Complete comparator, meteorology and competing-source validation."
+    },
+    {
+      "source": "Environment Agency Public Register",
+      "role": "official_source_candidate",
+      "credential_status": "not_required",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 23579,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "Planning Data API",
+      "role": "planning_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "National Atmospheric Emissions Inventory",
+      "role": "emissions_inventory",
+      "credential_status": "not_required",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 0,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "OpenAQ v3",
+      "role": "monitoring_context_only",
+      "credential_status": "present",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 0,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "World Air Quality Index API",
+      "role": "supplementary_air_quality_context",
+      "credential_status": "present",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "OpenWeather current conditions",
+      "role": "supplementary_meteorology",
+      "credential_status": "present",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Met Office Weather DataHub Land Observations",
+      "role": "meteorology_context_gate",
+      "credential_status": "present",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 576,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "Met Office Weather DataHub Global Spot",
+      "role": "official_forecast_meteorology",
+      "credential_status": "present",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 10,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "Copernicus Atmosphere Monitoring Service",
+      "role": "modelled_context_only",
+      "credential_status": "present",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 2,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "Copernicus Data Space STAC Sentinel-5P",
+      "role": "satellite_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 0,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "NASA Earthdata Common Metadata Repository",
+      "role": "satellite_catalogue",
+      "credential_status": "present",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 26,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "PurpleAir API",
+      "role": "low_cost_sensor_network",
+      "credential_status": "present",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 292,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "NewsAPI",
+      "role": "media_context_only",
+      "credential_status": "present",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "NewsData.io",
+      "role": "media_context_only",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "SerpAPI",
+      "role": "discovery_only",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "Companies House API",
+      "role": "operator_context_only",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "Google Drive legacy archive",
+      "role": "disabled_legacy_archive",
+      "credential_status": "missing",
+      "collector_status": "Legacy archive disabled; not collected or scientifically used",
+      "records_or_targets": 0,
+      "next_action": "Keep disabled; do not collect, promote or use as scientific evidence."
+    },
+    {
+      "source": "OpenAI API",
+      "role": "assisted_summarisation",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "Gemini API",
+      "role": "assisted_summarisation",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "UK-AIR Data Selector",
+      "role": "monitoring_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "SEPA Public Register",
+      "role": "official_source_candidate",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Natural Resources Wales Public Register",
+      "role": "official_source_candidate",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Northern Ireland environmental regulation records",
+      "role": "official_source_candidate",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Local authority planning portals",
+      "role": "planning_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Environment Agency flood monitoring API",
+      "role": "environmental_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Ordnance Survey Data Hub",
+      "role": "geospatial_context_only",
+      "credential_status": "missing",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "ONS Open Geography Portal",
+      "role": "receptor_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "NOMIS / ONS population data",
+      "role": "population_context_only",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "Index of Multiple Deprivation",
+      "role": "equity_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Get Information About Schools",
+      "role": "receptor_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "CQC care directory",
+      "role": "receptor_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Contracts Finder",
+      "role": "procurement_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Find a Tender Service",
+      "role": "procurement_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Waste Data Interrogator",
+      "role": "waste_flow_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "WhatDoTheyKnow",
+      "role": "public_challenge_source",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "ICO decision notices",
+      "role": "foi_eir_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "OpenStreetMap / Overpass",
+      "role": "supplementary_geospatial_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Department for Transport Road Traffic Statistics",
+      "role": "competing_source_and_activity_context",
+      "credential_status": "not_required",
+      "collector_status": "Metadata/index only",
+      "records_or_targets": 16,
+      "next_action": "Harvest and validate underlying records; metadata is not measurement evidence."
+    },
+    {
+      "source": "Department for Transport Port Freight Statistics",
+      "role": "port_shipping_activity_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "NASA FIRMS VIIRS and MODIS active fire data",
+      "role": "wildfire_and_burning_confounder",
+      "credential_status": "present",
+      "collector_status": "Records downloaded; validation pending",
+      "records_or_targets": 1988,
+      "next_action": "Validate schema, units, time basis, quality flags and lineage."
+    },
+    {
+      "source": "UK Pollutant Release and Transfer Register",
+      "role": "facility_emissions_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Defra Local Air Quality Management and AQMA records",
+      "role": "local_air_quality_management_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Local authority LAQM annual status and detailed assessment reports",
+      "role": "local_monitoring_and_action_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "National Highways WebTRIS traffic data",
+      "role": "short_interval_traffic_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "OHID Fingertips Public Health Data API",
+      "role": "aggregate_population_health_context_only",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "ONS Census and population APIs",
+      "role": "population_and_vulnerability_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "European Environment Agency air quality data",
+      "role": "regional_background_and_cross_border_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "EMEP/EBAS atmospheric composition observations",
+      "role": "rural_background_and_long_range_transport_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "Natural England designated sites data",
+      "role": "ecological_receptor_context",
+      "credential_status": "not_required",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    },
+    {
+      "source": "CEDA atmospheric and Earth observation archive",
+      "role": "specialist_model_and_observation_context",
+      "credential_status": "present",
+      "collector_status": "Credential present; not harvested",
+      "records_or_targets": 0,
+      "next_action": "Run a minimal authenticated sample retrieval and validation test."
+    },
+    {
+      "source": "Google Earth Engine",
+      "role": "reproducible_satellite_processing_context",
+      "credential_status": "federated_identity",
+      "collector_status": "Not configured",
+      "records_or_targets": 0,
+      "next_action": "Implement only after authority, licence and scientific utility review."
+    }
+  ]
+}

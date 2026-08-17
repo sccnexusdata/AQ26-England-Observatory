@@ -1,0 +1,38 @@
+:root{--vvip-navy:#071f33;--vvip-blue:#0b3c68;--vvip-teal:#0b8794;--vvip-cyan:#32b8c7;--vvip-ink:#102a43;--vvip-muted:#5b6e7f;--vvip-line:#d4e3eb;--vvip-pale:#f2f9fb;--vvip-pass:#16866b;--vvip-amber:#b96800}
+.social-strip{background:#fff;border-bottom:1px solid var(--vvip-line)}
+.social-strip-inner{min-height:38px;gap:8px;padding-block:2px}
+.social-strip-label{font-size:.66rem;letter-spacing:.08em;color:#607383}
+.social-strip .social-links{gap:7px}
+.social-strip .social-link{width:32px;height:32px;min-height:32px;padding:0;border-radius:50%;box-shadow:none}
+.social-strip .social-link span{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);clip-path:inset(50%);white-space:nowrap;border:0}
+.social-strip .social-icon{width:16px;height:16px}
+.hero{isolation:isolate;background:linear-gradient(125deg,#061b2c 0%,#07334a 58%,#0a4856 100%)}
+.hero::after{content:"";position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(circle at 82% 18%,rgba(49,191,204,.18),transparent 31%),linear-gradient(115deg,transparent 0 64%,rgba(255,255,255,.035) 64% 65%,transparent 65%)}
+.hero-inner{max-width:900px}
+.vvip-release-strip{border-bottom:1px solid var(--vvip-line);background:linear-gradient(90deg,#fff,#f2fafb)}
+.vvip-release-inner{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(280px,.65fr);gap:24px;align-items:center;padding-block:18px}
+.vvip-kicker{display:block;margin-bottom:5px;color:var(--vvip-teal);font-size:.7rem;font-weight:900;letter-spacing:.1em;text-transform:uppercase}
+.vvip-release-copy strong{display:block;color:var(--vvip-navy);font-size:1rem;line-height:1.28}
+.vvip-release-copy small{display:block;margin-top:5px;color:var(--vvip-muted);font-size:.78rem;line-height:1.4}
+.vvip-release-status{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex-wrap:wrap}
+.vvip-chip{display:inline-flex;align-items:center;gap:6px;min-height:30px;border:1px solid var(--vvip-line);border-radius:999px;background:#fff;padding:5px 10px;color:var(--vvip-ink);font-size:.72rem;font-weight:850;white-space:nowrap}
+.vvip-chip::before{content:"";width:8px;height:8px;border-radius:50%;background:var(--vvip-muted)}
+.vvip-chip.pass::before{background:var(--vvip-pass)}
+.vvip-chip.blocked::before{background:var(--vvip-amber)}
+.vvip-chip.unknown::before{background:#7a8791}
+.vvip-method-link{color:var(--vvip-blue);font-size:.75rem;font-weight:850;text-decoration:none}
+.vvip-method-link:hover,.vvip-method-link:focus-visible{text-decoration:underline}
+.vvip-framework{margin:32px 0;padding:28px;border:1px solid var(--vvip-line);border-radius:24px;background:linear-gradient(135deg,#fff,#f0fafb);box-shadow:0 18px 50px rgba(7,31,51,.08)}
+.vvip-framework-head{max-width:780px}
+.vvip-framework-head h2{margin:.25rem 0 .65rem;color:var(--vvip-navy)}
+.vvip-framework-head p{color:var(--vvip-muted)}
+.vvip-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:22px}
+.vvip-card{position:relative;overflow:hidden;min-height:180px;border:1px solid var(--vvip-line);border-radius:18px;background:#fff;padding:20px}
+.vvip-card::before{content:"";position:absolute;left:0;top:0;bottom:0;width:5px;background:linear-gradient(var(--vvip-teal),var(--vvip-cyan))}
+.vvip-card b{display:block;margin-bottom:8px;color:var(--vvip-navy);font-size:1rem}
+.vvip-card p{margin:0;color:var(--vvip-muted);font-size:.84rem;line-height:1.55}
+.vvip-provenance{margin-top:18px;border-top:1px solid var(--vvip-line);padding-top:16px;color:var(--vvip-muted);font-size:.78rem}
+.vvip-provenance a{font-weight:800}
+@media(max-width:900px){.vvip-release-inner{grid-template-columns:1fr}.vvip-release-status{justify-content:flex-start}.vvip-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:640px){.social-strip-inner{min-height:38px}.vvip-release-inner{padding-block:14px;gap:12px}.vvip-release-copy strong{font-size:.92rem}.vvip-release-copy small{font-size:.74rem}.vvip-release-status{gap:6px}.vvip-chip{font-size:.67rem;padding:4px 8px}.vvip-framework{padding:20px 16px;border-radius:19px}.vvip-grid{grid-template-columns:1fr}.vvip-card{min-height:auto}}
+@media print{.hero{background:#fff!important;color:#000!important}.hero h1,.hero p{color:#000!important}.vvip-release-strip{background:#fff!important}.vvip-framework,.vvip-card{box-shadow:none!important}}

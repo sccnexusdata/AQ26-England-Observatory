@@ -1,0 +1,460 @@
+{
+  "source": "data_led_discovery",
+  "ok": true,
+  "note": "National monitoring and inventories lead discovery. Planning and commercial context run only inside data-discovered event windows.",
+  "event_context_count": 0,
+  "activated_post_discovery_target_count": 0,
+  "environment_agency_public_register": {
+    "source": "environment_agency_public_register",
+    "ok": true,
+    "role": "Official register candidates classified by regulatory role. Waste-transfer/amenity permits are context and are not treated as principal incineration installation permits.",
+    "licence": "Environment Agency Conditional Licence / OGL as stated by the source pages.",
+    "registers": {
+      "waste_operations": {
+        "url": "https://environment.data.gov.uk/public-register/downloads/waste-operations",
+        "ok": true,
+        "regulatory_role": "linked_waste_operation_context",
+        "status_code": 200,
+        "bytes": 895258,
+        "sha256": "7434997c1a6df806df6f5b27f98b55c894b73549e8687ff7542a289f3ab321ac",
+        "zip_members": [
+          "waste-operations.csv",
+          "PRO-waste-operations-licence-information.txt"
+        ],
+        "row_limit_reached": false,
+        "register": "waste_operations",
+        "row_count_parsed": 9613,
+        "records_validated": true,
+        "schema_validated": true,
+        "quality_validated": false,
+        "top_fields": {
+          "permit_number": 9613,
+          "waste_management_licence_no": 9613,
+          "licence_holder_name": 9613,
+          "status": 9613,
+          "issued_date": 9613,
+          "date_effective": 9613,
+          "pre_ea_permit_ref": 9612,
+          "site_name": 9612,
+          "site_type": 9612,
+          "site_address": 9612,
+          "site_grid_reference": 9610,
+          "easting": 9610,
+          "northing": 9610,
+          "local_authority": 8982,
+          "site_postcode": 8960,
+          "variation_date": 3983,
+          "transfer_date": 1394,
+          "trading_name": 45,
+          "suspended_date": 9,
+          "revoked_date": 3
+        },
+        "status_counts": {
+          "Effective": 8779,
+          "Closure & Aftercare": 779,
+          "Partially Suspended": 26,
+          "Partially Revoked": 16,
+          "Fully Suspended": 11,
+          "Part Surrendered": 2
+        },
+        "target_match_count": 0,
+        "operator_only_ambiguous_count": 0,
+        "regional_context_count": 0,
+        "target_matches": [],
+        "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only."
+      },
+      "industrial_installations": {
+        "url": "https://environment.data.gov.uk/public-register/downloads/industrial-installations",
+        "ok": true,
+        "regulatory_role": "principal_installation_candidate",
+        "status_code": 200,
+        "bytes": 570975,
+        "sha256": "d9fe94101924b128f93c2215dd125b0f00ac9123da9a008da13e017970328b2f",
+        "zip_members": [
+          "industrial-installations.csv",
+          "PRO-installations-licence-information.txt"
+        ],
+        "row_limit_reached": false,
+        "register": "industrial_installations",
+        "row_count_parsed": 5198,
+        "records_validated": true,
+        "schema_validated": true,
+        "quality_validated": false,
+        "top_fields": {
+          "permission_number": 5198,
+          "name": 5198,
+          "activity_type_description": 5198,
+          "site_address": 5198,
+          "easting": 5198,
+          "northing": 5198,
+          "permission_date": 5198,
+          "site_grid_reference": 5197,
+          "local_authority": 5197,
+          "site_postcode": 5196,
+          "document_url": 1809
+        },
+        "status_counts": {
+          "unknown": 5198
+        },
+        "target_match_count": 0,
+        "operator_only_ambiguous_count": 0,
+        "regional_context_count": 0,
+        "target_matches": [],
+        "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only."
+      },
+      "enforcement_action": {
+        "url": "https://environment.data.gov.uk/public-register/downloads/enforcement-action",
+        "ok": true,
+        "regulatory_role": "enforcement_candidate",
+        "status_code": 200,
+        "bytes": 352417,
+        "sha256": "69b3fe493b183d31e32e1bf43a39ff944d0231a709382c555df9b447871e3292",
+        "zip_members": [
+          "enforcement-action.csv",
+          "PRO-enforcement-actions-licence-information.txt"
+        ],
+        "row_limit_reached": false,
+        "register": "enforcement_action",
+        "row_count_parsed": 8768,
+        "records_validated": true,
+        "schema_validated": true,
+        "quality_validated": false,
+        "top_fields": {
+          "action_number": 8768,
+          "offender": 8768,
+          "action_date": 8768,
+          "relevant_legislation": 8768,
+          "action_type": 8768,
+          "agency_function": 8768,
+          "address": 8060
+        },
+        "status_counts": {
+          "Enforcement Notice": 4668,
+          "Court Case": 4093,
+          "Caution": 5,
+          "Court Case|Enforcement Notice": 2
+        },
+        "target_match_count": 0,
+        "operator_only_ambiguous_count": 0,
+        "regional_context_count": 0,
+        "target_matches": [],
+        "matching_policy": "Facility totals require a site, permit, postcode or other strong installation identifier. Operator-only matches are retained as ambiguous and excluded from facility totals. County/local-authority matches are regional context only."
+      }
+    },
+    "target_match_total": 0,
+    "principal_installation_match_total": 0,
+    "linked_waste_operation_match_total": 0,
+    "enforcement_match_total": 0,
+    "regional_context_total": 0,
+    "records_validated": true,
+    "schema_validated": true,
+    "quality_validated": false,
+    "pre_discovery_target_matching": false,
+    "post_discovery_target_count": 0,
+    "errors": []
+  },
+  "planning_data": {
+    "source": "planning_data_api",
+    "ok": false,
+    "role": "post-discovery planning, constraint and receptor context; not an anomaly or priority driver",
+    "base_url": "https://www.planning.data.gov.uk/entity.json",
+    "datasets_requested": [
+      "planning-application",
+      "local-planning-authority",
+      "brownfield-land",
+      "conservation-area",
+      "listed-building",
+      "scheduled-monument",
+      "site-of-special-scientific-interest",
+      "ancient-woodland",
+      "flood-risk-zone",
+      "green-belt",
+      "article-4-direction-area",
+      "tree-preservation-zone"
+    ],
+    "event_triggered": true,
+    "drives_initial_detection": false,
+    "request_count": 0,
+    "locations": [],
+    "dataset_counts": {},
+    "errors": [],
+    "not_applicable": true,
+    "canonical_stage": "not_applicable_no_discovered_event"
+  },
+  "naei": {
+    "source": "naei",
+    "ok": true,
+    "role": "national emissions inventory, point-source and gridded-emissions context; not local source attribution",
+    "url": "https://naei.energysecurity.gov.uk/air-pollutants/air-pollutant-emissions-data",
+    "resources": [
+      {
+        "title": "Skip to main content",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants/air-pollutant-emissions-data#main-content"
+      },
+      {
+        "title": "Home",
+        "url": "https://naei.energysecurity.gov.uk/"
+      },
+      {
+        "title": "Data",
+        "url": "https://naei.energysecurity.gov.uk/data"
+      },
+      {
+        "title": "Maps",
+        "url": "https://naei.energysecurity.gov.uk/data/maps"
+      },
+      {
+        "title": "UK totals",
+        "url": "https://naei.energysecurity.gov.uk/data/uk-totals"
+      },
+      {
+        "title": "UK emissions data selector",
+        "url": "https://naei.energysecurity.gov.uk/data/data-selector"
+      },
+      {
+        "title": "Licensing",
+        "url": "https://naei.energysecurity.gov.uk/data/licensing"
+      },
+      {
+        "title": "About the inventory",
+        "url": "https://naei.energysecurity.gov.uk/about-inventory"
+      },
+      {
+        "title": "National inventory system",
+        "url": "https://naei.energysecurity.gov.uk/about-inventory/national-inventory-system"
+      },
+      {
+        "title": "NAEI Methodology",
+        "url": "https://naei.energysecurity.gov.uk/about-inventory/inventory-methodology"
+      },
+      {
+        "title": "Quality Assurance & Quality Control (QA/QC)",
+        "url": "https://naei.energysecurity.gov.uk/about-inventory/quality-assurance-quality-control-qaqc"
+      },
+      {
+        "title": "Air pollutants",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants"
+      },
+      {
+        "title": "Why do we estimate AQ emissions?",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants/why-do-we-estimate-air-quality-aq-emissions"
+      },
+      {
+        "title": "UK Emissions Map",
+        "url": "https://naei.energysecurity.gov.uk/emissionsapp/"
+      },
+      {
+        "title": "Air Pollutant Emissions Data",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants/air-pollutant-emissions-data"
+      },
+      {
+        "title": "Devolved government AQ Emissions Inventories",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants/devolved-government-air-quality-emissions"
+      },
+      {
+        "title": "Air Pollutant Reports",
+        "url": "https://naei.energysecurity.gov.uk/reports?title=&field_categories_target_id=12"
+      },
+      {
+        "title": "Making projections - Air Quality",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants/making-projections-air-quality"
+      },
+      {
+        "title": "Greenhouse gases",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases"
+      },
+      {
+        "title": "Why do we estimate GHG emissions?",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases/why-do-we-estimate-ghg-emissions"
+      },
+      {
+        "title": "Greenhouse Gas target",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases/greenhouse-gas-targets"
+      },
+      {
+        "title": "Local Authority Greenhouse Gas Map",
+        "url": "https://naei.energysecurity.gov.uk/laghgapp/"
+      },
+      {
+        "title": "Greenhouse Gas Emissions Data",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases/greenhouse-gas-emissions-data"
+      },
+      {
+        "title": "Devolved government GHG Emission Inventories",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases/devolved-government-greenhouse-gas-emissions"
+      },
+      {
+        "title": "Greenhouse Gas Reports",
+        "url": "https://naei.energysecurity.gov.uk/reports?title=&field_categories_target_id=13"
+      },
+      {
+        "title": "Making projections - Greenhouse Gases",
+        "url": "https://naei.energysecurity.gov.uk/greenhouse-gases/making-projections-greenhouse-gases"
+      },
+      {
+        "title": "Emission factors",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors"
+      },
+      {
+        "title": "Emission factors database",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-database"
+      },
+      {
+        "title": "Emission factors for transport",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-transport"
+      },
+      {
+        "title": "Glossary",
+        "url": "https://naei.energysecurity.gov.uk/glossary"
+      },
+      {
+        "title": "Common Terms",
+        "url": "https://naei.energysecurity.gov.uk/glossary/common-terms"
+      },
+      {
+        "title": "CRT Code List",
+        "url": "https://naei.energysecurity.gov.uk/glossary/crt-code-list"
+      },
+      {
+        "title": "NFR Code List",
+        "url": "https://naei.energysecurity.gov.uk/glossary/nfr-code-list"
+      },
+      {
+        "title": "Home",
+        "url": "https://naei.energysecurity.gov.uk/"
+      },
+      {
+        "title": "Air pollutants",
+        "url": "https://naei.energysecurity.gov.uk/air-pollutants"
+      },
+      {
+        "title": "UK Emissions Data Selector",
+        "url": "https://naei.energysecurity.gov.uk/data/data-selector"
+      },
+      {
+        "title": "Emission Factor Selector",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-database"
+      },
+      {
+        "title": "UK Air Quality Pivot Table 2026 (XLSX 46.02 MB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-02/PivotTableViewer_naei24_AQ_2026_02_26.xlsx"
+      },
+      {
+        "title": "UK Air Quality Inventory Data: 1990-2024 - Machine Readable CSV Files (ZIP 13.8 KB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-07/NAEI24_AQ_CSV_files.zip"
+      },
+      {
+        "title": "Annex I: Sectoral UK Emissions for 1990-2024 (XLSX 1.55 MB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-02/Final_UK_Annex1_Submission_2026_01_29.xlsx"
+      },
+      {
+        "title": "Informative Inventory Report: 1990-2024",
+        "url": "https://naei.energysecurity.gov.uk/reports/uk-informative-inventory-report-1990-2024"
+      },
+      {
+        "title": "Air Pollutant Inventories for England, Scotland, Wales and Northern Ireland: 2005-2023",
+        "url": "https://naei.energysecurity.gov.uk/reports/air-pollutant-inventories-england-scotland-wales-and-northern-ireland-2005-2023"
+      },
+      {
+        "title": "UK Emissions Interactive Map",
+        "url": "https://naei.energysecurity.gov.uk/emissionsapp/"
+      },
+      {
+        "title": "Emissions from Point Sources",
+        "url": "https://naei.energysecurity.gov.uk/data/maps/emissions-point-sources"
+      },
+      {
+        "title": "Gridded Emissions Data",
+        "url": "https://naei.energysecurity.gov.uk/data/maps/download-gridded-emissions"
+      },
+      {
+        "title": "Annex IV: Projected UK Emissions for 2025-2050 (XLSX 316 KB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-03/Final_UK_AnnexIV_Submission_2026_03_12.xlsx"
+      },
+      {
+        "title": "Annex V: Gridded Emissions data for 2023 (XLSX 16.88 MB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2025-04/annex_v_gridded_emissions_2023_v1.0.xlsx"
+      },
+      {
+        "title": "Annex VI: Emissions from Large Point Sources for 2023 (XLSX 265.95 KB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2025-04/annex_vi_lps_emissions_2023_v1.0.xlsx"
+      },
+      {
+        "title": "NMVOC Speciation Profiles",
+        "url": "https://naei.energysecurity.gov.uk/reports/nmvoc-speciation-profiles-naei23-update"
+      },
+      {
+        "title": "Data Archive",
+        "url": "https://naei.energysecurity.gov.uk/data-archive"
+      },
+      {
+        "title": "©Crown Copyright",
+        "url": "http://www.nationalarchives.gov.uk/information-management/our-services/crown-copyright.htm"
+      },
+      {
+        "title": "Accessibility Statement",
+        "url": "https://naei.energysecurity.gov.uk/accessibility-statement"
+      },
+      {
+        "title": "Cookies",
+        "url": "https://naei.energysecurity.gov.uk/cookies"
+      },
+      {
+        "title": "Privacy Policy",
+        "url": "https://naei.energysecurity.gov.uk/privacy-policy"
+      },
+      {
+        "title": "Terms and Conditions",
+        "url": "https://naei.energysecurity.gov.uk/terms-and-conditions"
+      },
+      {
+        "title": "Contact",
+        "url": "https://naei.energysecurity.gov.uk/contact"
+      }
+    ],
+    "priority_resources": [
+      {
+        "title": "Emission factors",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors"
+      },
+      {
+        "title": "Emission factors database",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-database"
+      },
+      {
+        "title": "Emission factors for transport",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-transport"
+      },
+      {
+        "title": "Emission Factor Selector",
+        "url": "https://naei.energysecurity.gov.uk/emission-factors/emission-factors-database"
+      },
+      {
+        "title": "UK Air Quality Pivot Table 2026 (XLSX 46.02 MB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-02/PivotTableViewer_naei24_AQ_2026_02_26.xlsx"
+      },
+      {
+        "title": "UK Air Quality Inventory Data: 1990-2024 - Machine Readable CSV Files (ZIP 13.8 KB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2026-07/NAEI24_AQ_CSV_files.zip"
+      },
+      {
+        "title": "Emissions from Point Sources",
+        "url": "https://naei.energysecurity.gov.uk/data/maps/emissions-point-sources"
+      },
+      {
+        "title": "Gridded Emissions Data",
+        "url": "https://naei.energysecurity.gov.uk/data/maps/download-gridded-emissions"
+      },
+      {
+        "title": "Annex V: Gridded Emissions data for 2023 (XLSX 16.88 MB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2025-04/annex_v_gridded_emissions_2023_v1.0.xlsx"
+      },
+      {
+        "title": "Annex VI: Emissions from Large Point Sources for 2023 (XLSX 265.95 KB)",
+        "url": "https://naei.energysecurity.gov.uk/sites/default/files/2025-04/annex_vi_lps_emissions_2023_v1.0.xlsx"
+      }
+    ],
+    "errors": [],
+    "status_code": 200
+  }
+}

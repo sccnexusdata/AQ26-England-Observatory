@@ -1,0 +1,90 @@
+{
+  "audiences": [
+    "scientists",
+    "public-health organisations",
+    "regulators",
+    "NGOs and legal reviewers",
+    "journalists",
+    "communities"
+  ],
+  "external_endorsement_claimed": false,
+  "generated_at_utc": "2026-08-17T13:00:40+00:00",
+  "interaction": {
+    "analytics_event": "aq26_impact_action",
+    "analytics_requires_consent": true,
+    "email": "enquiries@sccairquality.com",
+    "page": "https://sccairquality.com/impact-and-use.html"
+  },
+  "method": {
+    "SCC": [
+      "Search",
+      "Corroborate",
+      "Communicate"
+    ],
+    "VVIP": [
+      "Validation",
+      "Verification",
+      "Integrity",
+      "Provenance"
+    ]
+  },
+  "primary_product": {
+    "metrics": {
+      "active_aurn_sites_discovered": 171,
+      "configured_stream_day_completeness_percent": 95.6,
+      "configured_target_pollutant_station_count": 142,
+      "expected_configured_pollutant_day_observations": 9900,
+      "expected_configured_stream_days": 9900,
+      "fresh_physical_sites": 127,
+      "identified_physical_sites": 134,
+      "monitoring_timeseries": 239,
+      "period_end": "2026-08-16",
+      "period_start": "2026-07-18",
+      "pollutants": [
+        {
+          "completeness_percent": 97.2,
+          "configured_stations": 126,
+          "expected_pollutant_day_observations": 3780,
+          "pollutant": "PM2.5",
+          "reporting_stations": 125,
+          "valid_pollutant_day_observations": 3676
+        },
+        {
+          "completeness_percent": 96.4,
+          "configured_stations": 108,
+          "expected_pollutant_day_observations": 3240,
+          "pollutant": "PM10",
+          "reporting_stations": 106,
+          "valid_pollutant_day_observations": 3124
+        },
+        {
+          "completeness_percent": 92.7,
+          "configured_stations": 96,
+          "expected_pollutant_day_observations": 2880,
+          "pollutant": "NO2",
+          "reporting_stations": 95,
+          "valid_pollutant_day_observations": 2669
+        }
+      ],
+      "provisional_or_as_supplied_pollutant_day_observations": 9469,
+      "provisional_or_as_supplied_station_days": 9469,
+      "ratified_pollutant_day_observations": 0,
+      "ratified_station_days": 0,
+      "regions_reporting": 9,
+      "reporting_physical_sites": 132,
+      "reporting_station_count": 141,
+      "reporting_station_coverage_percent": 99.3,
+      "reporting_timeseries": 236,
+      "resolved_physical_sites": 134,
+      "unique_station_days": 4186,
+      "valid_pollutant_day_observations": 9469,
+      "valid_station_days": 9469,
+      "who_context_pollutant_day_observations": 173,
+      "who_context_station_days": 173
+    },
+    "name": "England 30-day official monitoring review",
+    "url": "https://sccairquality.com/england-air-quality-review.html"
+  },
+  "schema": "aq26_impact_delivery_v1",
+  "scientific_boundary": "Provisional official screening evidence only — no source attribution, exposure, health finding, compliance or regulatory determination."
+}

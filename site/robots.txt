@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /unredacted/
+Disallow: /test/
+Sitemap: https://sccairquality.com/sitemap.xml

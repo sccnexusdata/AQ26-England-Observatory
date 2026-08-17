@@ -1,0 +1,17 @@
+{
+  "schema": "aq26_statistical_accessibility_v2_status",
+  "generated_at_utc": "2026-08-17T13:00:43+00:00",
+  "site": "public",
+  "pages": 41,
+  "pages_changed": 41,
+  "checks": {
+    "single_h1": true,
+    "skip_links": true,
+    "table_semantics": true,
+    "statistical_language": true,
+    "a4_print": true,
+    "updated_labels": true,
+    "delay_spacing": true
+  },
+  "claim_boundary": "Presentation and terminology assurance only; measurements and scientific thresholds are unchanged."
+}

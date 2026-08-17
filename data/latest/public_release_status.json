@@ -1,0 +1,44 @@
+{
+  "authoritative_public_summary": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/outputs/api/public_release_summary.json",
+  "claim_boundary": "The public website may report verified acquisition, quality screening and explicitly bounded record-linkage results. It may not convert them into source attribution or causal findings.",
+  "contract_sha256": "4bc7b2e9bbf0a23902f81ab786df1352bd967053b22d1b9d9e7d7e986852df80",
+  "convergence_message": "No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+  "current_evidence_geography": "England",
+  "data_availability_publication_allowed": true,
+  "england_wide_current_assessment_allowed": false,
+  "environmental_assessment_message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
+  "environmental_assessment_status": "not_assessable_incomplete_england_coverage",
+  "final_release_contract_receipt": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/outputs/api/final_release_contract_receipt.json",
+  "final_release_contract_sealed_at_utc": "2026-08-17T13:01:04+00:00",
+  "generated_at_utc": "2026-08-17T12:59:37+00:00",
+  "harvest_integrity": {
+    "complete_mandatory_harvest": true,
+    "mandatory_context_harvest_status": "passed",
+    "mandatory_failures": [],
+    "primary_measurement_acquisition_status": "passed",
+    "status": "passed"
+  },
+  "measurement_count_reconciliation_passed": true,
+  "programme_scope": "England",
+  "public_release_summary_sha256": "8a412d1f8e3d0a265cbe1ec3115de22bc54e904dcb5497d81f3e89cc7b1261d8",
+  "public_wording": "Acquisition status distinguishes primary monitoring evidence from mandatory contextual sources. A degraded context harvest may support a clearly labelled data-availability release, but not an environmental episode, source, compliance, exposure or health finding. No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met. No episode was available for corroboration. Cross-source convergence was not applicable to an episode in this run.",
+  "run_cadence": "weekly",
+  "scientific_claim_publication_allowed": false,
+  "scientific_episode_release": {
+    "assessment_status": "not_assessable_incomplete_england_coverage",
+    "blockers": [
+      "No controlled screening event is available for episode-level cross-reference.",
+      "The station-level PM2.5 screen does not satisfy the governed England-wide coverage/freshness gate.",
+      "A zero-candidate screen does not establish clean, safe or pollution-free air."
+    ],
+    "missing_dimensions": [],
+    "passed": false,
+    "screening_evaluable": false,
+    "screening_event_count": 0,
+    "status": "not_applicable_no_screening_events"
+  },
+  "social_publication_allowed": true,
+  "source_attribution_allowed": false,
+  "status": "aq26_public_release_status",
+  "website_publication_allowed": true
+}

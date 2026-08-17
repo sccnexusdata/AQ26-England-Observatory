@@ -1,0 +1,3988 @@
+[
+  {
+    "uka_id": "UKA01118",
+    "site_id": "ASHC",
+    "name": "Ashington Centre",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 55.182956,
+    "longitude": -1.567043,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01118",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-12-22"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-12-22"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01155",
+    "site_id": "DARF",
+    "name": "Darlington Firthmoor",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.516956,
+    "longitude": -1.534526,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01155",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-04-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00645",
+    "site_id": "HSAW",
+    "name": "Hartlepool St Abbs Walk",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.683242,
+    "longitude": -1.203838,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00645",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-05-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-05-11"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-10-17"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01085",
+    "site_id": "KIEW",
+    "name": "Kielder Water",
+    "region": "North East",
+    "environment_type": "Rural Background",
+    "latitude": 55.18158,
+    "longitude": -2.45317,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01085",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00220",
+    "site_id": "MID",
+    "name": "Middlesbrough",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.569297,
+    "longitude": -1.220874,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00220",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-13"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1995-04-21"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1995-04-21"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00213",
+    "site_id": "NEWC",
+    "name": "Newcastle Centre",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.97825,
+    "longitude": -1.610528,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00213",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-08-24"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1992-03-08"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1992-03-08"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00528",
+    "site_id": "NCA3",
+    "name": "Newcastle Cradlewell Roadside",
+    "region": "North East",
+    "environment_type": "Urban Traffic",
+    "latitude": 54.986405,
+    "longitude": -1.595362,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00528",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-10"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2018-02-13"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-03-10"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01159",
+    "site_id": "NOSC",
+    "name": "North Shields Chirton",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 55.010756,
+    "longitude": -1.475944,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01159",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-05-20"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-05-20"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01154",
+    "site_id": "REMW",
+    "name": "Redcar Milford Walk",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.600476,
+    "longitude": -1.077845,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01154",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-02-04"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-02-04"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00599",
+    "site_id": "SOTR",
+    "name": "Stockton-on-Tees A1305 Roadside",
+    "region": "North East",
+    "environment_type": "Urban Traffic",
+    "latitude": 54.565819,
+    "longitude": -1.3159,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00599",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2016-02-26"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-05-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00535",
+    "site_id": "EAGL",
+    "name": "Stockton-on-Tees Eaglescliffe",
+    "region": "North East",
+    "environment_type": "Urban Traffic",
+    "latitude": 54.516667,
+    "longitude": -1.358547,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00535",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-09-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-09-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2009-01-21"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00484",
+    "site_id": "SUN2",
+    "name": "Sunderland Silksworth",
+    "region": "North East",
+    "environment_type": "Urban Background",
+    "latitude": 54.88361,
+    "longitude": -1.406878,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00484",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-09"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2019-09-27"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2004-12-09"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00601",
+    "site_id": "SUNR",
+    "name": "Sunderland Wessington Way",
+    "region": "North East",
+    "environment_type": "Urban Traffic",
+    "latitude": 54.91839,
+    "longitude": -1.408391,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00601",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-19"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-01-15"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00625",
+    "site_id": "BBRD",
+    "name": "Birkenhead Borough Road",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.388624,
+    "longitude": -3.024942,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00625",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-04"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-08-18"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00590",
+    "site_id": "BLAR",
+    "name": "Blackburn Accrington Road",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.747763,
+    "longitude": -2.45268,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00590",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2014-05-12"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01025",
+    "site_id": "BLAP",
+    "name": "Blackburn Audley Park",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.74673,
+    "longitude": -2.467873,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01025",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2023-09-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2023-09-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00488",
+    "site_id": "BLC2",
+    "name": "Blackpool Marton",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.80489,
+    "longitude": -3.007175,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00488",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-01-28"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2005-06-14"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2005-06-14"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01049",
+    "site_id": "BLWD",
+    "name": "Blackpool Whitegate Drive",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.810975,
+    "longitude": -3.033232,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01049",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-07"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00598",
+    "site_id": "BURW",
+    "name": "Bury Whitefield Roadside",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.559029,
+    "longitude": -2.293772,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00598",
+    "configured_streams": [
+      {
+        "pollutant": "PM10",
+        "start_date": "2015-03-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00932",
+    "site_id": "CARM",
+    "name": "Carlisle Morton A595",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 54.885823,
+    "longitude": -2.964955,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00932",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2021-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2021-10-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2021-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00659",
+    "site_id": "COPP",
+    "name": "Crewe Coppenhall",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.115941,
+    "longitude": -2.453492,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00659",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-07-06"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-07-06"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2019-10-15"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00170",
+    "site_id": "GLAZ",
+    "name": "Glazebury",
+    "region": "North West",
+    "environment_type": "Rural Background",
+    "latitude": 53.46008,
+    "longitude": -2.472056,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00170",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00247",
+    "site_id": "LVP",
+    "name": "Liverpool Speke",
+    "region": "North West",
+    "environment_type": "Urban Industrial",
+    "latitude": 53.34633,
+    "longitude": -2.844333,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00247",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-09-17"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2003-05-21"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2003-05-21"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01095",
+    "site_id": "LVPT",
+    "name": "Liverpool Thirlmere Park",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.424225,
+    "longitude": -2.960989,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01095",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-01-28"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-01-28"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00248",
+    "site_id": "MAN3",
+    "name": "Manchester Piccadilly",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.48152,
+    "longitude": -2.237881,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00248",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-01-15"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1995-12-18"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1995-12-18"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00617",
+    "site_id": "MAHG",
+    "name": "Manchester Sharston",
+    "region": "North West",
+    "environment_type": "Suburban Industrial",
+    "latitude": 53.371722,
+    "longitude": -2.238917,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00617",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-08-23"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-08-23"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-01-27"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01051",
+    "site_id": "MIMW",
+    "name": "Middlewich St Michael's Way",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.194019,
+    "longitude": -2.447951,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01051",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-13"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00408",
+    "site_id": "PRES",
+    "name": "Preston",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.76559,
+    "longitude": -2.680353,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00408",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-01-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2000-06-06"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2000-06-06"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01174",
+    "site_id": "ROCB",
+    "name": "Rochdale Belfield",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.621603,
+    "longitude": -2.146989,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01174",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-07-06"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-07-06"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00339",
+    "site_id": "ECCL",
+    "name": "Salford Eccles",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.48481,
+    "longitude": -2.334139,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00339",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-26"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1997-03-20"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1997-03-20"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00579",
+    "site_id": "CW",
+    "name": "Shaw Crompton Way",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.579227,
+    "longitude": -2.093844,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00579",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2014-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00627",
+    "site_id": "SHLW",
+    "name": "St Helens Linkway",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.451826,
+    "longitude": -2.742134,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00627",
+    "configured_streams": [
+      {
+        "pollutant": "PM10",
+        "start_date": "2017-02-07"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-09-27"
+      }
+    ],
+    "target_pollutants": [
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01099",
+    "site_id": "TAMM",
+    "name": "Tameside A635 Manchester Road",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.482437,
+    "longitude": -2.113912,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01099",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00538",
+    "site_id": "WAR",
+    "name": "Warrington",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.389225,
+    "longitude": -2.615593,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00538",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-11-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-10-21"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00603",
+    "site_id": "WSMR",
+    "name": "Widnes Milton Road",
+    "region": "North West",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.365391,
+    "longitude": -2.73168,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00603",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-03-09"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00482",
+    "site_id": "WIG5",
+    "name": "Wigan Centre",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.54914,
+    "longitude": -2.638139,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00482",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2004-10-08"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2004-10-08"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00406",
+    "site_id": "TRAN",
+    "name": "Wirral Tranmere",
+    "region": "North West",
+    "environment_type": "Urban Background",
+    "latitude": 53.37287,
+    "longitude": -3.022722,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00406",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-01-28"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2000-05-14"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2000-05-14"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00353",
+    "site_id": "BAR3",
+    "name": "Barnsley Gawber",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.56292,
+    "longitude": -1.510436,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00353",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2023-04-06"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2023-04-06"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1997-07-07"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00611",
+    "site_id": "BDMA",
+    "name": "Bradford Mayo Avenue",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.771245,
+    "longitude": -1.759774,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00611",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-04-24"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01090",
+    "site_id": "BRAS",
+    "name": "Bradford Shipley Airedale Road",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.795169,
+    "longitude": -1.743742,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01090",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-03"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-12-03"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01161",
+    "site_id": "BRWP",
+    "name": "Bradford West Park",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.800617,
+    "longitude": -1.790806,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01161",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-06-11"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-06-11"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00654",
+    "site_id": "DYAG",
+    "name": "Dewsbury Ashworth Grange",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.693104,
+    "longitude": -1.637111,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00654",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-06-23"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-06-23"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2018-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00612",
+    "site_id": "DCST",
+    "name": "Doncaster A630 Cleveland Street",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.518383,
+    "longitude": -1.13806,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00612",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-05"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-05-07"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01093",
+    "site_id": "HARW",
+    "name": "Harrogate Woodlands",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.993714,
+    "longitude": -1.511011,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01093",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-01-23"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-01-23"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00169",
+    "site_id": "HM",
+    "name": "High Muffles",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Rural Background",
+    "latitude": 54.334497,
+    "longitude": -0.80882,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00169",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00450",
+    "site_id": "HUL2",
+    "name": "Hull Freetown",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.74878,
+    "longitude": -0.341222,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00450",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-08-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2002-11-06"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2002-11-06"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00600",
+    "site_id": "HULR",
+    "name": "Hull Holderness Road",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.759013,
+    "longitude": -0.305678,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00600",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2015-01-15"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00647",
+    "site_id": "IMGM",
+    "name": "Immingham Woodlands Avenue",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.619241,
+    "longitude": -0.213324,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00647",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-05-16"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-05-16"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-11-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00222",
+    "site_id": "LEED",
+    "name": "Leeds Centre",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.80378,
+    "longitude": -1.546472,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00222",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-02"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1993-01-04"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1993-01-04"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00527",
+    "site_id": "LED6",
+    "name": "Leeds Headingley Kerbside",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.819972,
+    "longitude": -1.576361,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00527",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-04-02"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-02-17"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-02-17"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01054",
+    "site_id": "ROED",
+    "name": "Rotherham East Dene",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.436248,
+    "longitude": -1.323872,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01054",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00381",
+    "site_id": "SCN2",
+    "name": "Scunthorpe Town",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Industrial",
+    "latitude": 53.58634,
+    "longitude": -0.636811,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00381",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-03-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2004-06-06"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-01-10"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00622",
+    "site_id": "SHBR",
+    "name": "Sheffield Barnsley Road",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.40495,
+    "longitude": -1.455815,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00622",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2017-10-16"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-08-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00575",
+    "site_id": "SHDG",
+    "name": "Sheffield Devonshire Green",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.378622,
+    "longitude": -1.478096,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00575",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2013-10-31"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2013-10-31"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2013-10-31"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00181",
+    "site_id": "SHE",
+    "name": "Sheffield Tinsley",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.41058,
+    "longitude": -1.396139,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00181",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-05-05"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-05-05"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1990-11-28"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01107",
+    "site_id": "WAKA",
+    "name": "Wakefield Alverthorpe",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.68736,
+    "longitude": -1.522209,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01107",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-07-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-07-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00523",
+    "site_id": "YK10",
+    "name": "York Bootham",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Background",
+    "latitude": 53.967513,
+    "longitude": -1.086514,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00523",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-03"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-08-16"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00524",
+    "site_id": "YK11",
+    "name": "York Fishergate",
+    "region": "Yorkshire and the Humber",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.951889,
+    "longitude": -1.075861,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00524",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2011-08-31"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00604",
+    "site_id": "CHLG",
+    "name": "Chesterfield Loundsley Green",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 53.244131,
+    "longitude": -1.454946,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00604",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2015-03-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2015-03-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-03-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00529",
+    "site_id": "CHS7",
+    "name": "Chesterfield Roadside",
+    "region": "East Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.231751,
+    "longitude": -1.456928,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00529",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-07-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-03-11"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-03-11"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00630",
+    "site_id": "DESA",
+    "name": "Derby St Alkmund's Way",
+    "region": "East Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.922983,
+    "longitude": -1.469507,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00630",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-21"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01027",
+    "site_id": "DESB",
+    "name": "Derby Stockbrook Park",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.916059,
+    "longitude": -1.492166,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01027",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2023-11-24"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2023-11-24"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00171",
+    "site_id": "LB",
+    "name": "Ladybower",
+    "region": "East Midlands",
+    "environment_type": "Rural Background",
+    "latitude": 53.40337,
+    "longitude": -1.752006,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00171",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00609",
+    "site_id": "LEIR",
+    "name": "Leicester A594 Roadside",
+    "region": "East Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.638742,
+    "longitude": -1.124267,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00609",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-26"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2015-09-07"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-06-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00573",
+    "site_id": "LECU",
+    "name": "Leicester University",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.619904,
+    "longitude": -1.127182,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00573",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2013-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2020-01-09"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2013-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00561",
+    "site_id": "LIN3",
+    "name": "Lincoln Canwick Road",
+    "region": "East Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 53.221432,
+    "longitude": -0.534204,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00561",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2011-07-27"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01103",
+    "site_id": "LOTA",
+    "name": "Loughborough Thorpe Acre",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.780359,
+    "longitude": -1.227659,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01103",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-05-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-05-12"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01050",
+    "site_id": "MALA",
+    "name": "Mansfield Ladybrook",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 53.145302,
+    "longitude": -1.208302,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01050",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00632",
+    "site_id": "NTN4",
+    "name": "Northampton Spring Park",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.272257,
+    "longitude": -0.916605,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00632",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2017-04-20"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01092",
+    "site_id": "NOTB",
+    "name": "Nottingham Bilborough",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.969102,
+    "longitude": -1.230107,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01092",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-01-22"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-01-22"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01048",
+    "site_id": "NOTK",
+    "name": "Nottingham Kenmore Gardens",
+    "region": "East Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.959441,
+    "longitude": -1.13865,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01048",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-02-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-02-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2024-02-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00618",
+    "site_id": "NWBV",
+    "name": "Nottingham Western Boulevard",
+    "region": "East Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.969377,
+    "longitude": -1.188851,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00618",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-15"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2016-03-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-03-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01038",
+    "site_id": "TALL",
+    "name": "Tallington",
+    "region": "East Midlands",
+    "environment_type": "Rural Background",
+    "latitude": 52.656308,
+    "longitude": -0.381,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01038",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01026",
+    "site_id": "TOFT",
+    "name": "Toft Newton",
+    "region": "East Midlands",
+    "environment_type": "Rural Background",
+    "latitude": 53.374133,
+    "longitude": -0.449788,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01026",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01158",
+    "site_id": "BEDC",
+    "name": "Bedworth Collycroft",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.485839,
+    "longitude": -1.479622,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01158",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-05-19"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-05-19"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00626",
+    "site_id": "BIRR",
+    "name": "Birmingham A4540 Roadside",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.476145,
+    "longitude": -1.874978,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00626",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2016-09-09"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2016-09-09"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-09-09"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01062",
+    "site_id": "BIHG",
+    "name": "Birmingham Hall Green",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.437553,
+    "longitude": -1.830956,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01062",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-10-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2024-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00655",
+    "site_id": "BMLD",
+    "name": "Birmingham Ladywood",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.481346,
+    "longitude": -1.918235,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00655",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2018-08-23"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2018-08-23"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2020-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01108",
+    "site_id": "BAQF",
+    "name": "Birmingham University",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.455515,
+    "longitude": -1.928937,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01108",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-07-09"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-07-09"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00652",
+    "site_id": "BOTR",
+    "name": "Burton-on-Trent Horninglow",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.82105,
+    "longitude": -1.635718,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00652",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-07-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-07-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2018-02-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00623",
+    "site_id": "CANK",
+    "name": "Cannock A5190 Roadside",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.687298,
+    "longitude": -1.980821,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00623",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-11"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-08-10"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00592",
+    "site_id": "COAL",
+    "name": "Coventry Allesley",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.411628,
+    "longitude": -1.560189,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00592",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2014-06-11"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2019-05-28"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2014-06-17"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00634",
+    "site_id": "COBR",
+    "name": "Coventry Binley Road",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.407708,
+    "longitude": -1.490082,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00634",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-22"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2017-04-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00265",
+    "site_id": "LEAM",
+    "name": "Leamington Spa",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.28881,
+    "longitude": -1.533119,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00265",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1996-07-26"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1996-07-26"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00564",
+    "site_id": "LEAR",
+    "name": "Leamington Spa Rugby Road",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.294884,
+    "longitude": -1.542911,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00564",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2012-06-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2012-06-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2012-06-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00489",
+    "site_id": "LEOM",
+    "name": "Leominster",
+    "region": "West Midlands",
+    "environment_type": "Suburban Background",
+    "latitude": 52.221593,
+    "longitude": -2.73684,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00489",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2005-07-18"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00595",
+    "site_id": "BOLD",
+    "name": "Oldbury Birmingham Road",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.502436,
+    "longitude": -2.003497,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00595",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-05-14"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-05-14"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2014-09-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01055",
+    "site_id": "SHUN",
+    "name": "Shrewsbury Underdale",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.715083,
+    "longitude": -2.726833,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01055",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-11-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00610",
+    "site_id": "STKR",
+    "name": "Stoke-on-Trent A50 Roadside",
+    "region": "West Midlands",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.980436,
+    "longitude": -2.111898,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00610",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2015-05-22"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-05-22"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00337",
+    "site_id": "STOK",
+    "name": "Stoke-on-Trent Centre",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 53.02821,
+    "longitude": -2.175133,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00337",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-05"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1997-03-11"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1997-03-11"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00648",
+    "site_id": "TDHD",
+    "name": "Telford Hollinswood",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.673471,
+    "longitude": -2.436692,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00648",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-07-04"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-07-04"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-11-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01117",
+    "site_id": "WALD",
+    "name": "Walsall Caldmore",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.574031,
+    "longitude": -1.983799,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01117",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-12-16"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-12-16"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00565",
+    "site_id": "WAL4",
+    "name": "Walsall Woodlands",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.605641,
+    "longitude": -2.030371,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00565",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2012-06-19"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00658",
+    "site_id": "WBKP",
+    "name": "West Bromwich Kenrick Park",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.508342,
+    "longitude": -1.98607,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00658",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2019-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01162",
+    "site_id": "WOLE",
+    "name": "Wolverhampton East Park",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.587571,
+    "longitude": -2.095736,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01162",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-06-26"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-06-26"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01098",
+    "site_id": "WORT",
+    "name": "Worcester Tolladine",
+    "region": "West Midlands",
+    "environment_type": "Urban Background",
+    "latitude": 52.209364,
+    "longitude": -2.180563,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01098",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-03-24"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-03-24"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00644",
+    "site_id": "",
+    "name": "Borehamwood Meadow Park",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 51.661229,
+    "longitude": -0.27055,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00644",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01115",
+    "site_id": "CAMK",
+    "name": "Cambridge King's Hedges",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 52.230135,
+    "longitude": 0.139191,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01115",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-10-27"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-10-27"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00396",
+    "site_id": "CAM",
+    "name": "Cambridge Roadside",
+    "region": "East of England",
+    "environment_type": "Urban Traffic",
+    "latitude": 52.20237,
+    "longitude": 0.124456,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00396",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "1999-06-26"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00605",
+    "site_id": "LUTR",
+    "name": "Luton A505 Roadside",
+    "region": "East of England",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.892293,
+    "longitude": -0.46211,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00605",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-12"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2015-03-11"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00549",
+    "site_id": "NO12",
+    "name": "Norwich Lakenfields",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 52.614823,
+    "longitude": 1.302686,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00549",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-10-08"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2009-10-08"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2009-09-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01052",
+    "site_id": "PEGE",
+    "name": "Peterborough Garton End",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 52.594012,
+    "longitude": -0.248945,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01052",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00012",
+    "site_id": "SIB",
+    "name": "Sibton",
+    "region": "East of England",
+    "environment_type": "Rural Background",
+    "latitude": 52.2944,
+    "longitude": 1.463497,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00012",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01096",
+    "site_id": "SOUS",
+    "name": "Southend Shoeburyness",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 51.537836,
+    "longitude": 0.792578,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01096",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-03-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-03-18"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00409",
+    "site_id": "SEND",
+    "name": "Southend-on-Sea",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 51.544166,
+    "longitude": 0.678331,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00409",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-01-30"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2000-07-24"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2000-07-24"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00445",
+    "site_id": "OSY",
+    "name": "St Osyth",
+    "region": "East of England",
+    "environment_type": "Rural Background",
+    "latitude": 51.777874,
+    "longitude": 1.04901,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00445",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00525",
+    "site_id": "",
+    "name": "Stanford-le-Hope Roadside",
+    "region": "East of England",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.518167,
+    "longitude": 0.439548,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00525",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01156",
+    "site_id": "STGW",
+    "name": "Stevenage St Georges Way South",
+    "region": "East of England",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.903112,
+    "longitude": -0.19937,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01156",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-04-14"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00272",
+    "site_id": "",
+    "name": "Thurrock",
+    "region": "East of England",
+    "environment_type": "Urban Background",
+    "latitude": 51.47707,
+    "longitude": 0.317969,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00272",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00433",
+    "site_id": "WEYB",
+    "name": "Weybourne",
+    "region": "East of England",
+    "environment_type": "Rural Background",
+    "latitude": 52.95049,
+    "longitude": 1.122017,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00433",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00362",
+    "site_id": "WFEN",
+    "name": "Wicken Fen",
+    "region": "East of England",
+    "environment_type": "Rural Background",
+    "latitude": 52.2985,
+    "longitude": 0.290917,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00362",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00259",
+    "site_id": "",
+    "name": "Camden Kerbside",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.544233,
+    "longitude": -0.175228,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00259",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00591",
+    "site_id": "",
+    "name": "Ealing Horn Lane",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.51895,
+    "longitude": -0.265617,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00591",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00260",
+    "site_id": "",
+    "name": "Haringey Roadside",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.5993,
+    "longitude": -0.068218,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00260",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01119",
+    "site_id": "LONC",
+    "name": "London A406 N Circular",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.614224,
+    "longitude": -0.059503,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01119",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-01-08"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-01-08"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00238",
+    "site_id": "",
+    "name": "London Bexley",
+    "region": "London",
+    "environment_type": "Suburban Background",
+    "latitude": 51.46603,
+    "longitude": 0.184806,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00238",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00211",
+    "site_id": "CLL2",
+    "name": "London Bloomsbury",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.52229,
+    "longitude": -0.125889,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00211",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "1998-03-26"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1992-01-23"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1992-01-23"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01104",
+    "site_id": "",
+    "name": "London Farringdon Street",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.514741,
+    "longitude": -0.104522,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01104",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00568",
+    "site_id": "",
+    "name": "London Haringey Priory Park South",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.584128,
+    "longitude": -0.125254,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00568",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00472",
+    "site_id": "HRL",
+    "name": "London Harlington",
+    "region": "London",
+    "environment_type": "Urban Industrial",
+    "latitude": 51.48879,
+    "longitude": -0.441614,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00472",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-09-16"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2004-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2004-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00266",
+    "site_id": "HIL",
+    "name": "London Hillingdon",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.49633,
+    "longitude": -0.460861,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00266",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-05-05"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1996-08-02"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1996-08-02"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00656",
+    "site_id": "",
+    "name": "London Honor Oak Park",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.449674,
+    "longitude": -0.037418,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00656",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00315",
+    "site_id": "",
+    "name": "London Marylebone Road",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.52253,
+    "longitude": -0.154611,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00315",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00253",
+    "site_id": "",
+    "name": "London N. Kensington",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.52105,
+    "longitude": -0.213419,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00253",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01100",
+    "site_id": "LONM",
+    "name": "London Norbury Manor School",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.41004,
+    "longitude": -0.12748,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01100",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-04-02"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-04-02"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00572",
+    "site_id": "TED2",
+    "name": "London Teddington Bushy Park",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.425286,
+    "longitude": -0.345606,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00572",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2013-08-09"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2020-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00435",
+    "site_id": "HORS",
+    "name": "London Westminster",
+    "region": "London",
+    "environment_type": "Urban Background",
+    "latitude": 51.49467,
+    "longitude": -0.131931,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00435",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2018-04-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2001-07-17"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00558",
+    "site_id": "",
+    "name": "Southwark A2 Old Kent Road",
+    "region": "London",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.480499,
+    "longitude": -0.05955,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00558",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01109",
+    "site_id": "AYLA",
+    "name": "Aylesbury A4157",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.822161,
+    "longitude": -0.793884,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01109",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-08-11"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00483",
+    "site_id": "BRT3",
+    "name": "Brighton Preston Park",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 50.840836,
+    "longitude": -0.147572,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00483",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2020-01-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-08-21"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2004-11-03"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00553",
+    "site_id": "CHAT",
+    "name": "Chatham Roadside",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.374264,
+    "longitude": 0.54797,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00553",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2010-07-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2010-07-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2010-07-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00614",
+    "site_id": "CHBO",
+    "name": "Chilbolton Observatory",
+    "region": "South East",
+    "environment_type": "Rural Background",
+    "latitude": 51.149617,
+    "longitude": -1.438228,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00614",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00546",
+    "site_id": "EB",
+    "name": "Eastbourne",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 50.805778,
+    "longitude": 0.271611,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00546",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-07-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2009-07-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2010-11-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01097",
+    "site_id": "FARC",
+    "name": "Farnborough Cherrywood",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 51.307583,
+    "longitude": -0.764982,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01097",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-03-26"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-03-26"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00511",
+    "site_id": "",
+    "name": "Horley",
+    "region": "South East",
+    "environment_type": "Suburban Industrial",
+    "latitude": 51.165865,
+    "longitude": -0.167734,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00511",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA00152",
+    "site_id": "LH",
+    "name": "Lullington Heath",
+    "region": "South East",
+    "environment_type": "Rural Background",
+    "latitude": 50.7937,
+    "longitude": 0.18125,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00152",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01064",
+    "site_id": "MAID",
+    "name": "Maidstone Upper Stone Street",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.268519,
+    "longitude": 0.526348,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01064",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-10"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-12-10"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00963",
+    "site_id": "MKCC",
+    "name": "Milton Keynes Civic Centre",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 52.044076,
+    "longitude": -0.761013,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00963",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2023-03-29"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2023-03-29"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00258",
+    "site_id": "OX",
+    "name": "Oxford Centre Roadside",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.751745,
+    "longitude": -1.257463,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00258",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "1996-04-15"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00518",
+    "site_id": "OX8",
+    "name": "Oxford St Ebbes",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 51.744806,
+    "longitude": -1.260278,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00518",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2008-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2008-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00421",
+    "site_id": "PMTH",
+    "name": "Portsmouth",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 50.82881,
+    "longitude": -1.068583,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00421",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-12-23"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2001-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2001-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00651",
+    "site_id": "POAR",
+    "name": "Portsmouth Anglesea Road",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.798339,
+    "longitude": -1.095558,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00651",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-20"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2018-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2018-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00620",
+    "site_id": "REA5",
+    "name": "Reading London Road",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.454896,
+    "longitude": -0.940382,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00620",
+    "configured_streams": [
+      {
+        "pollutant": "PM10",
+        "start_date": "2016-03-04"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-03-04"
+      }
+    ],
+    "target_pollutants": [
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00462",
+    "site_id": "REA1",
+    "name": "Reading New Town",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 51.45309,
+    "longitude": -0.944067,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00462",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-09-25"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2003-10-17"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2003-10-17"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01053",
+    "site_id": "RRKL",
+    "name": "Reading Rose Kiln Lane",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.4459,
+    "longitude": -0.976081,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01053",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-11-07"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00251",
+    "site_id": "ROCH",
+    "name": "Rochester Stoke",
+    "region": "South East",
+    "environment_type": "Rural Background",
+    "latitude": 51.45617,
+    "longitude": 0.634889,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00251",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01091",
+    "site_id": "SLOW",
+    "name": "Slough Windmill Bath Road",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.51223,
+    "longitude": -0.610392,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01091",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-01-14"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-01-14"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00613",
+    "site_id": "SA33",
+    "name": "Southampton A33",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.920265,
+    "longitude": -1.463484,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00613",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-12-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2016-01-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00235",
+    "site_id": "SOUT",
+    "name": "Southampton Centre",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 50.908173,
+    "longitude": -1.395757,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00235",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-11-05"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1994-01-04"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1994-01-04"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00548",
+    "site_id": "STOR",
+    "name": "Storrington Roadside",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.916932,
+    "longitude": -0.449548,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00548",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-08-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2009-08-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2009-08-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00628",
+    "site_id": "WTHG",
+    "name": "Worthing A27 Roadside",
+    "region": "South East",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.832947,
+    "longitude": -0.379916,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00628",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2018-03-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-10-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01061",
+    "site_id": "WOEA",
+    "name": "Worthing East Ten Acres",
+    "region": "South East",
+    "environment_type": "Urban Background",
+    "latitude": 50.817286,
+    "longitude": -0.353272,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01061",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-08-16"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2024-08-16"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00574",
+    "site_id": "BPLE",
+    "name": "Barnstaple A39",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.074793,
+    "longitude": -4.041924,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00574",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2013-11-14"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2013-11-14"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00660",
+    "site_id": "BHA4",
+    "name": "Bath A4 Roadside",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.390922,
+    "longitude": -2.35503,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00660",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2019-10-24"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00429",
+    "site_id": "BORN",
+    "name": "Bournemouth",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 50.73957,
+    "longitude": -1.826744,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00429",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2017-11-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2001-03-05"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01160",
+    "site_id": "BOBV",
+    "name": "Bournemouth Bourne Valley",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 50.740961,
+    "longitude": -1.927742,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01160",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-06-05"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2026-06-05"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA01120",
+    "site_id": "BRIW",
+    "name": "Bridgwater A372 Westonzoyland",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.125113,
+    "longitude": -2.984988,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01120",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2026-03-24"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA01116",
+    "site_id": "BRSP",
+    "name": "Bristol Patchway",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 51.529672,
+    "longitude": -2.58642,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01116",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-11-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-11-12"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00494",
+    "site_id": "BRS8",
+    "name": "Bristol St Paul's",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 51.462839,
+    "longitude": -2.584482,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00494",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2008-08-12"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2006-06-15"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2006-06-15"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00631",
+    "site_id": "BR11",
+    "name": "Bristol Temple Way",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.457968,
+    "longitude": -2.583975,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00631",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2024-10-04"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2017-11-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00537",
+    "site_id": "MACK",
+    "name": "Charlton Mackrell",
+    "region": "South West",
+    "environment_type": "Rural Background",
+    "latitude": 51.05625,
+    "longitude": -2.68345,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00537",
+    "configured_streams": [],
+    "target_pollutants": []
+  },
+  {
+    "uka_id": "UKA01101",
+    "site_id": "CHGR",
+    "name": "Cheltenham A40 Gloucester Road",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 51.896592,
+    "longitude": -2.113747,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01101",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-03-20"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5"
+    ]
+  },
+  {
+    "uka_id": "UKA00624",
+    "site_id": "CHBR",
+    "name": "Christchurch Barrack Road",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.735454,
+    "longitude": -1.780888,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00624",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2017-10-01"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2016-09-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00263",
+    "site_id": "EX",
+    "name": "Exeter Roadside",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.725083,
+    "longitude": -3.532465,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00263",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "1996-07-02"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA01102",
+    "site_id": "GLOT",
+    "name": "Gloucester Tredworth",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 51.849673,
+    "longitude": -2.234996,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01102",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2025-04-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2025-04-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00566",
+    "site_id": "HONI",
+    "name": "Honiton",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 50.792287,
+    "longitude": -3.196702,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00566",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-03-18"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-03-18"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2012-06-21"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00360",
+    "site_id": "PLYM",
+    "name": "Plymouth Centre",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 50.37167,
+    "longitude": -4.142361,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00360",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2009-10-13"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "1997-09-29"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "1997-09-29"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00629",
+    "site_id": "PLYR",
+    "name": "Plymouth Tavistock Road",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.411058,
+    "longitude": -4.130288,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00629",
+    "configured_streams": [
+      {
+        "pollutant": "NO2",
+        "start_date": "2017-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00569",
+    "site_id": "SASH",
+    "name": "Saltash Callington Road",
+    "region": "South West",
+    "environment_type": "Urban Traffic",
+    "latitude": 50.411463,
+    "longitude": -4.227678,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00569",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2013-01-01"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2013-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10"
+    ]
+  },
+  {
+    "uka_id": "UKA00650",
+    "site_id": "SWHO",
+    "name": "Swindon Walcot",
+    "region": "South West",
+    "environment_type": "Urban Background",
+    "latitude": 51.558061,
+    "longitude": -1.765678,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00650",
+    "configured_streams": [
+      {
+        "pollutant": "PM2.5",
+        "start_date": "2022-06-10"
+      },
+      {
+        "pollutant": "PM10",
+        "start_date": "2022-06-10"
+      },
+      {
+        "pollutant": "NO2",
+        "start_date": "2018-01-01"
+      }
+    ],
+    "target_pollutants": [
+      "PM2.5",
+      "PM10",
+      "NO2"
+    ]
+  },
+  {
+    "uka_id": "UKA00168",
+    "site_id": "YW",
+    "name": "Yarner Wood",
+    "region": "South West",
+    "environment_type": "Rural Background",
+    "latitude": 50.5976,
+    "longitude": -3.71651,
+    "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00168",
+    "configured_streams": [],
+    "target_pollutants": []
+  }
+]

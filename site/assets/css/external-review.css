@@ -1,0 +1,7 @@
+.aq26-assurance-separation,.aq26-external-review-panel{grid-column:1/-1;margin:26px 0;border:1px solid #cbdde5;border-radius:22px;background:#f8fbfc;padding:24px;box-shadow:0 12px 36px rgba(7,31,51,.06)}
+.aq26-assurance-separation{border-left:6px solid #076684}.aq26-external-review-panel{border-left:6px solid #16835d;background:linear-gradient(135deg,#fff,#f2faf7)}
+.aq26-assurance-separation h2,.aq26-external-review-panel h2{margin:.2rem 0 .65rem;font-size:clamp(1.35rem,2.5vw,1.9rem)}
+.aq26-assurance-separation p,.aq26-external-review-panel p{max-width:1000px;margin:.5rem 0;color:#405566}
+.aq26-review-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:16px}.aq26-review-columns article{border:1px solid #d7e5ea;border-radius:16px;background:#fff;padding:17px}.aq26-review-columns h3{margin:0 0 .45rem;font-size:1.05rem}.aq26-review-columns p{margin:0;font-size:.92rem}
+@media(max-width:720px){.aq26-review-columns{grid-template-columns:1fr}.aq26-assurance-separation,.aq26-external-review-panel{padding:20px;border-radius:18px}}
+@media print{.aq26-assurance-separation,.aq26-external-review-panel{box-shadow:none;break-inside:avoid}}

@@ -1,0 +1,33 @@
+{
+  "schema": "aq26_social_profiles_v1",
+  "generated_at_utc": "2026-08-17T13:00:37+00:00",
+  "website": "https://sccairquality.com/",
+  "profiles": [
+    {
+      "platform": "Facebook",
+      "url": "https://www.facebook.com/sccnexusairquality",
+      "handle": "SCC Nexus Air Quality"
+    },
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/sccnexusairquality/",
+      "handle": "@sccnexusairquality"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/company/136204209",
+      "handle": "SCC Nexus Air Quality"
+    },
+    {
+      "platform": "TikTok",
+      "url": "https://www.tiktok.com/@sccairquality",
+      "handle": "@sccairquality"
+    },
+    {
+      "platform": "X",
+      "url": "https://x.com/sccairquality",
+      "handle": "@sccairquality"
+    }
+  ],
+  "claim_boundary": "Profile links identify official AQ26 communication channels; they do not alter the scientific status of any AQ26 output."
+}

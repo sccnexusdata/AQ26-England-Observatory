@@ -1,0 +1,22 @@
+{
+  "schema": "aq26_seo_accessibility_status_v1",
+  "generated_at_utc": "2026-08-17T13:00:43+00:00",
+  "release_date": "2026-08-17",
+  "site": "public",
+  "pages": 41,
+  "pages_changed": 39,
+  "sitemap_urls": 41,
+  "checks": {
+    "scientific_review_in_sitemap": true,
+    "new_pages_in_sitemap": true,
+    "metadata_complete": true,
+    "dataset_and_report_schema": true,
+    "provisional_and_live_states": true,
+    "accessibility_expanded": true,
+    "image_dimensions": true,
+    "facility_descriptions_unique": true,
+    "entity_name_clear": true,
+    "print_provenance": true
+  },
+  "claim_boundary": "Deterministic website correction receipt; not an external WCAG certification, Google ranking guarantee or scientific finding."
+}

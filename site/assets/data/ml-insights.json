@@ -1,0 +1,27 @@
+{
+  "comparison_boundary": "Counts and scores guide document review only and must not be used to rank facilities by risk, emissions, health impact or compliance.",
+  "evidence_pathway_counts": {},
+  "generated_at_utc": "2026-08-17T13:00:37.079417+00:00",
+  "methodology": {
+    "hard_boundaries": [
+      "AQ26-derived outputs receive zero independent-source authority",
+      "Duplicate formats count as one evidence family",
+      "Recency points require a separately verified scientific_recency_date; Drive timestamps and filename dates receive none",
+      "No source attribution, facility-risk ranking, permit-compliance, medical or legal determination"
+    ],
+    "model_type": "transparent deterministic review-workload scoring",
+    "name": "AQ26 forensic evidence-family triage",
+    "version": "2026.07-forensic-triage-v3-verified-recency"
+  },
+  "origin_class_counts": {},
+  "status": "forensic_evidence_triage_ready",
+  "summary": {
+    "canonical_drive_objects": 0,
+    "independent_evidence_families": 0,
+    "public_screening_records": 0,
+    "substantive_candidates": 0,
+    "top_score": 0
+  },
+  "target_readiness": [],
+  "top_records": []
+}

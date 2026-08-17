@@ -1,0 +1,24 @@
+{
+  "assessment_status": "assessment_unavailable_incomplete_england_coverage",
+  "blocked_event_ids": [],
+  "blockers": [
+    "No controlled screening event is available for episode-level cross-reference.",
+    "The station-level PM2.5 screen does not satisfy the governed England-wide coverage/freshness gate.",
+    "A zero-candidate screen does not establish clean, safe or pollution-free air."
+  ],
+  "claim_boundary": "This gate controls publication of a scientifically corroborated episode. It does not establish source contribution, causation, permit breach, exposure, health effect, operator fault or legal non-compliance.",
+  "england_wide_current_assessment_allowed": false,
+  "environmental_assessment_completed": false,
+  "executed_join_count": 0,
+  "fresh_physical_site_count": 127,
+  "gate_type": "scientific_episode_release_gate",
+  "generated_at_utc": "2026-08-17T12:59:37+00:00",
+  "missing_dimensions": [],
+  "scientific_episode_release_allowed": false,
+  "screening_evaluable": true,
+  "screening_event_count": 0,
+  "source_attribution_allowed": false,
+  "status": "not_applicable_no_screening_events",
+  "timeseries_count": 239,
+  "validated_join_count": 0
+}

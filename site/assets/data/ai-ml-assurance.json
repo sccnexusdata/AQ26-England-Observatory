@@ -1,0 +1,150 @@
+{
+  "assurance_sha256": "4a6c30648a5a726fede17c505bfc77b44894147098024ed5847aaa117bdb9cbf",
+  "claim_boundary": "AI or ML may assist retrieval, triage and drafting only under frozen evidence, deterministic checks and human review. It cannot establish source contribution, causation, compliance, exposure, safety or health effects.",
+  "code_manifest": [
+    {
+      "path": "scripts/aq26_ai_ml_assurance.py",
+      "sha256": "3373800c2792c84441fa506b6cd08a30a341b08bea8d17e343ecc06effc8611e"
+    },
+    {
+      "path": "scripts/aq26_ml_interrogation_layer.py",
+      "sha256": "5b1c97730ef1b4f4c8c9f88e019a28a0f4345315b4249ddd36cd93de265ab609"
+    }
+  ],
+  "current_execution": {
+    "automated_publication_authority": false,
+    "deterministic_rules_used": true,
+    "external_generative_ai_called": false,
+    "external_model_output_used_in_scientific_assessment": false,
+    "human_review_required": true,
+    "human_review_status": "pending_external_scientific_review",
+    "reason": "The current AQ26 run uses deterministic acquisition, normalisation, quality-control, freshness, linkage and communication rules. Configured AI credentials or catalogue entries do not constitute model execution or scientific evidence."
+  },
+  "evaluation_requirements": {
+    "predeployment": [
+      "Frozen benchmark datasets containing normal periods, known provider outages and documented pollution episodes.",
+      "False-positive, false-negative, calibration, geographic subgroup and data-missingness evaluation.",
+      "Adversarial tests for prompt injection, unsupported attribution and prohibited health/compliance claims.",
+      "Reproducibility from frozen inputs, code revision, parameters and output schema."
+    ],
+    "runtime": [
+      "Record model/provider/version only when a model is actually called.",
+      "Hash inputs, templates, parameters and structured outputs.",
+      "Require deterministic contract reconciliation and human approval before communication.",
+      "Fail closed when provenance, freshness, schema or claim-boundary checks fail."
+    ]
+  },
+  "evidence_state": {
+    "assessment_status": "not_assessable_incomplete_england_coverage",
+    "configured_join_count": 11,
+    "fresh_site_count": 127,
+    "freshness_diagnostic": {
+      "claim_boundary": "This diagnostic concerns data recency and provider/network timing only. It does not describe air quality, source contribution, compliance, exposure or health risk.",
+      "fresh_reporting_site_count": 127,
+      "freshness_threshold_hours": 4.0,
+      "interpretation": "Some reporting sites met the freshness threshold and others did not.",
+      "lag_pattern": "mixed_fresh_and_stale_sites",
+      "median_reporting_age_hours": 1.985,
+      "newest_reporting_age_hours": 1.985,
+      "no_numeric_data_site_count": 2,
+      "oldest_reporting_age_hours": 56.985,
+      "reporting_site_count": 132,
+      "similar_timestamp_cluster_share": 0.947,
+      "stale_reporting_site_count": 5,
+      "status": "partial_freshness"
+    },
+    "identified_site_count": 134,
+    "quality_validated_gap_dimensions": [
+      "official_meteorology",
+      "traffic_activity",
+      "regional_model_context",
+      "fire_and_satellite_context",
+      "regulatory_and_operational_context",
+      "competing_source_assessment"
+    ],
+    "reporting_site_count": 132,
+    "source_universe_count": 54
+  },
+  "generated_at_utc": "2026-08-17T13:00:37+00:00",
+  "input_manifest": [
+    {
+      "path": "api/public_release_summary.json",
+      "present": true,
+      "sha256": "3f6a892af5818e3d2e93fd13011503c46c46ab8c27f5d70f0f9f16f4ac15c889",
+      "size_bytes": 17568
+    },
+    {
+      "path": "primary_ground/monitoring_site_availability.json",
+      "present": true,
+      "sha256": "441a2fbea373eb3cddd1e68ac9d5c9244482065b7fa75ec8ab81f158e043c1df",
+      "size_bytes": 130891
+    },
+    {
+      "path": "scc/source-universe.json",
+      "present": true,
+      "sha256": "8f1901d97e00d73142c14c1ee3251029b228323ed076bc31a301c23dfd254cd0",
+      "size_bytes": 102364
+    },
+    {
+      "path": "scc/cross-reference-register.json",
+      "present": true,
+      "sha256": "966acfb32b7ec99104e1927317a844243c1a05e2a33a97ed626d61eac5b1c675",
+      "size_bytes": 41991
+    },
+    {
+      "path": "scientific/forensic_communication_dossier.json",
+      "present": true,
+      "sha256": "ac59cd7cdf87d5406689b566550db129e95d9abed0f5dfd05598b5bb38394cde",
+      "size_bytes": 7702
+    }
+  ],
+  "permitted_ai_ml_roles": [
+    "Suggest source-discovery queries and candidate datasets for human approval.",
+    "Assist metadata normalisation and document/entity extraction with deterministic validation against originals.",
+    "Rank evidence-review workload using transparent, reproducible features.",
+    "Draft bounded summaries that are checked against the frozen public release contract.",
+    "Propose anomaly candidates only when deterministic statistical gates independently reproduce them."
+  ],
+  "prohibited_ai_ml_roles": [
+    "Causal source attribution or source-apportionment determination.",
+    "Permit, legal, regulatory or compliance determination.",
+    "Exposure, safety, medical or health-impact determination.",
+    "Inventing, repairing or replacing missing measurements.",
+    "Granting website, email, social or scientific-publication authority.",
+    "Treating model confidence, fluent text or credential availability as validation."
+  ],
+  "recommended_model_ladder": [
+    {
+      "capability": "data-latency and missingness diagnostics",
+      "method": "deterministic lateness baselines and change-point alerts by provider, station and pollutant",
+      "minimum_gate": "timestamp provenance, stable expected cadence and alert evaluation on historical outages",
+      "priority": 1
+    },
+    {
+      "capability": "robust anomaly candidate detection",
+      "method": "seasonal robust statistics with multiplicity control, never a single uncalibrated black-box score",
+      "minimum_gate": "fresh quality-eligible series, station-role compatibility and out-of-sample false-alert evaluation",
+      "priority": 2
+    },
+    {
+      "capability": "spatiotemporal episode clustering",
+      "method": "distance/time constrained clustering followed by independent meteorology and competing-source checks",
+      "minimum_gate": "multiple physical sites, synchronized timestamps and documented spatial uncertainty",
+      "priority": 3
+    },
+    {
+      "capability": "document and register extraction",
+      "method": "schema-constrained extraction with page-level citations, hashes and human verification",
+      "minimum_gate": "original authoritative document retained and every extracted field traceable to source location",
+      "priority": 4
+    },
+    {
+      "capability": "regional-model residual screening",
+      "method": "compare compatible ground observations with CAMS or equivalent model context without treating residuals as attribution",
+      "minimum_gate": "unit, averaging period, grid, time and uncertainty compatibility established",
+      "priority": 5
+    }
+  ],
+  "schema": "aq26_ai_ml_assurance_v1",
+  "status": "assured_deterministic_analytics_external_ai_disabled"
+}

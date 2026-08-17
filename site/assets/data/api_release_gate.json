@@ -1,0 +1,32 @@
+{
+  "advisories": [],
+  "contextual_source_degraded": false,
+  "earthdata_stage": "metadata_only",
+  "failures": [],
+  "fallback_reason": null,
+  "fallback_used": false,
+  "firms_record_count": 1988,
+  "firms_stage": "records_downloaded",
+  "measurement_count_definitions": {
+    "analysis_window_valid_observation_count": "Quality-accepted numeric observations inside the exact AQ26 analysis window.",
+    "physical_site_count": "Deduplicated physical monitoring locations, counted independently of pollutant streams.",
+    "provider_expected_slot_count": "Provider timetable slots returned across selected series and lookback.",
+    "provider_missing_slot_count": "Expected provider slots without a numeric observation.",
+    "provider_numeric_observation_count": "Timestamped numeric provider observations; blank timetable slots excluded.",
+    "timeseries_count": "Unique monitoring streams defined by source, station, pollutant, method, unit and averaging period."
+  },
+  "preferred_uk_air_completed": true,
+  "primary_measurement_physical_site_count": 134,
+  "primary_measurement_provider_expected_slot_count": 16969,
+  "primary_measurement_provider_missing_slot_count": 0,
+  "primary_measurement_provider_numeric_observation_count": 16969,
+  "primary_measurement_sources_ready": 2,
+  "primary_measurement_timeseries_count": 239,
+  "primary_measurement_valid_observation_count": 16133,
+  "primary_source_id": "uk_air_sos_current_particle",
+  "primary_source_record_count": 239,
+  "primary_source_stage": "quality_validated",
+  "scientific_boundary": "A green release gate confirms harvest mechanics and validation stages only; it does not establish attribution, compliance or health impact. A valid zero-detection context query is not evidence that no fire or thermal source existed.",
+  "status": "passed",
+  "strict": true
+}

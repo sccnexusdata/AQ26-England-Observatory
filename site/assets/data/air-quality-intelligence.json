@@ -1,0 +1,144 @@
+{
+  "status": "evidence_screening_prototype",
+  "purpose": "Public-safe scientific screening layer that combines evidence, official registers, planning context, open monitoring/weather context, national emissions resources and readiness gates. It is not a source-attribution or health-determination engine.",
+  "summary": {
+    "targets_profiled": 0,
+    "high_priority_profiles": 0,
+    "medium_priority_profiles": 0,
+    "screening_profiles": 0,
+    "readiness_score": 21,
+    "readiness_interpretation": "screening only"
+  },
+  "readiness_index": {
+    "score": 21,
+    "interpretation": "screening only",
+    "gates": {
+      "source_acquired": "complete_primary_measurements",
+      "provenance_recorded": "complete_current_measurement_provenance",
+      "parser_validated": "quality_validated_current_measurements",
+      "time_alignment_checked": "not_applicable_no_fresh_screening_events",
+      "monitor_role_checked": "candidate_monitor_roles_unvalidated",
+      "meteorology_checked": "official_observations_available_event_alignment_not_applicable",
+      "comparator_checked": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
+      "reviewer_challenge_recorded": "claim_framework_started"
+    }
+  },
+  "source_status": {
+    "defra_uk_air_sensor_observation_service": "production_usable",
+    "defra_uk_air_atom_downloads": "metadata_only",
+    "imperial_college_london_laqn_api": "quality_validated",
+    "environment_agency_public_register": "records_downloaded",
+    "planning_data_api": "not_configured",
+    "national_atmospheric_emissions_inventory": "metadata_only",
+    "openaq_v3": "metadata_only",
+    "world_air_quality_index_api": "not_configured",
+    "openweather_current_conditions": "not_configured",
+    "met_office_weather_datahub_land_observations": "records_downloaded",
+    "met_office_weather_datahub_global_spot": "records_downloaded",
+    "copernicus_atmosphere_monitoring_service": "records_downloaded",
+    "copernicus_data_space_stac_sentinel_5p": "metadata_only",
+    "nasa_earthdata_common_metadata_repository": "metadata_only",
+    "purpleair_api": "records_downloaded",
+    "newsapi": "not_configured",
+    "newsdata_io": "credential_present",
+    "serpapi": "credential_present",
+    "companies_house_api": "credential_present",
+    "google_drive_legacy_archive": "archive_disabled",
+    "openai_api": "credential_present",
+    "gemini_api": "credential_present",
+    "uk_air_data_selector": "not_configured",
+    "sepa_public_register": "not_configured",
+    "natural_resources_wales_public_register": "not_configured",
+    "northern_ireland_environmental_regulation_records": "not_configured",
+    "local_authority_planning_portals": "not_configured",
+    "environment_agency_flood_monitoring_api": "not_configured",
+    "ordnance_survey_data_hub": "not_configured",
+    "ons_open_geography_portal": "not_configured",
+    "nomis_ons_population_data": "credential_present",
+    "index_of_multiple_deprivation": "not_configured",
+    "get_information_about_schools": "not_configured",
+    "cqc_care_directory": "not_configured",
+    "contracts_finder": "not_configured",
+    "find_a_tender_service": "not_configured",
+    "waste_data_interrogator": "not_configured",
+    "whatdotheyknow": "not_configured",
+    "ico_decision_notices": "not_configured",
+    "openstreetmap_overpass": "not_configured",
+    "department_for_transport_road_traffic_statistics": "metadata_only",
+    "department_for_transport_port_freight_statistics": "not_configured",
+    "nasa_firms_viirs_and_modis_active_fire_data": "records_downloaded",
+    "uk_pollutant_release_and_transfer_register": "not_configured",
+    "defra_local_air_quality_management_and_aqma_records": "not_configured",
+    "local_authority_laqm_annual_status_and_detailed_assessment_reports": "not_configured",
+    "national_highways_webtris_traffic_data": "not_configured",
+    "ohid_fingertips_public_health_data_api": "not_configured",
+    "ons_census_and_population_apis": "not_configured",
+    "european_environment_agency_air_quality_data": "not_configured",
+    "emep_ebas_atmospheric_composition_observations": "not_configured",
+    "natural_england_designated_sites_data": "not_configured",
+    "ceda_atmospheric_and_earth_observation_archive": "credential_present",
+    "google_earth_engine": "not_configured",
+    "planning_data": "not_configured",
+    "news": "not_configured"
+  },
+  "pollutant_watchlist": [
+    {
+      "pollutant": "PM2.5",
+      "why_it_matters": "Fine particulate matter is a core public-health metric and can reflect combustion, secondary aerosol and regional background contributions.",
+      "aq26_use": "monitoring trend, episode and exposure-context screening only",
+      "claim_boundary": "PM2.5 near a site does not identify a source without source apportionment, meteorology and comparator analysis."
+    },
+    {
+      "pollutant": "PM10",
+      "why_it_matters": "Coarse and fine particle mixture relevant to dust, combustion, construction, road and industrial sources.",
+      "aq26_use": "local episode and monitor-completeness screening",
+      "claim_boundary": "Requires source, wind-sector and background comparison before assigning contribution."
+    },
+    {
+      "pollutant": "NO2 / NOx",
+      "why_it_matters": "Combustion and traffic-sensitive pollutant group, often highly affected by roads and urban geometry.",
+      "aq26_use": "candidate combustion/traffic context and monitor-role check",
+      "claim_boundary": "Road traffic and urban background must be separated before facility interpretation."
+    },
+    {
+      "pollutant": "SO2, HCl, HF and acid gases",
+      "why_it_matters": "Relevant to industrial combustion and waste-incineration permit conditions.",
+      "aq26_use": "permit-limit, stack-test and compliance-record review",
+      "claim_boundary": "Ambient impact cannot be inferred from permit existence alone."
+    },
+    {
+      "pollutant": "Metals including Hg, Cd, Pb, As, Cr, Ni",
+      "why_it_matters": "Persistent toxic pollutants can be relevant to waste-stream and residue questions.",
+      "aq26_use": "periodic sample, permit, ash/residue and official-report evidence review",
+      "claim_boundary": "Metals require original laboratory/stack/residue data and chain-of-custody review."
+    },
+    {
+      "pollutant": "Dioxins, furans, PCBs, PAHs and PFAS-relevant waste streams",
+      "why_it_matters": "Persistent organic pollutants and emerging contaminant pathways are central to long-term toxicology questions.",
+      "aq26_use": "watchlist and evidence-gap flag only until specialist records exist",
+      "claim_boundary": "Do not infer presence, exposure or health effect without specific measurements and expert review."
+    },
+    {
+      "pollutant": "CO2 and fossil carbon from waste",
+      "why_it_matters": "Climate and circular-economy lock-in question, especially plastic-rich residual waste.",
+      "aq26_use": "facility, sector and national inventory context",
+      "claim_boundary": "Use lifecycle/system-boundary caution; do not compare options without consistent assumptions."
+    }
+  ],
+  "candidate_source_classes": [
+    "waste incineration / EfW",
+    "road traffic",
+    "industrial combustion / large point sources",
+    "ports and shipping",
+    "landfill / waste transfer",
+    "construction and mineral dust",
+    "domestic solid-fuel burning",
+    "agriculture and ammonia chemistry",
+    "regional background / long-range transport",
+    "meteorology and topographic trapping"
+  ],
+  "target_profiles": [],
+  "claim_boundary": "AQ26 ranks evidence and review priorities. It does not publish causal, medical, legal, permit-breach or source-apportionment determinations without specialist review.",
+  "readiness_statement": "Ready for evidence-screening, provenance review and data-gap challenge only; not ready for source attribution, permit-compliance conclusions, exposure modelling, health-effects assessment or comparative facility ranking.",
+  "comparison_boundary": "Record volume and review-priority scores must not be interpreted as facility risk, emissions performance, health impact or non-compliance."
+}

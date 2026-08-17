@@ -1,0 +1,16 @@
+{
+  "status": "aq26_optimised_photo_banners_applied",
+  "version": "aq26-photo-banners-20260724",
+  "html_files_checked": 72,
+  "html_files_updated": 72,
+  "html_files_without_hero": 0,
+  "usage": {
+    "aq26-banner-01-industrial-town.webp": 9,
+    "aq26-banner-02-london-motorway.webp": 10,
+    "aq26-banner-03-manchester-tram.webp": 4,
+    "aq26-banner-04-city-light-trails.webp": 10,
+    "aq26-banner-05-industrial-river.webp": 6,
+    "aq26-banner-06-river-bridges.webp": 14,
+    "aq26-banner-07-london-skyline.webp": 19
+  }
+}

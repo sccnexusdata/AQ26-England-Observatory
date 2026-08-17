@@ -1,0 +1,186 @@
+{
+  "evidence_classes": [],
+  "evidence_funnel": [
+    {
+      "count": 239,
+      "label": "Harvested pollutant time series",
+      "note": "current primary-source measurement streams"
+    },
+    {
+      "count": 127,
+      "label": "Fresh identifiable physical sites",
+      "note": "sites, not pollutant series"
+    },
+    {
+      "count": 0,
+      "label": "Statistical screening events",
+      "note": "multiple-testing-controlled preliminary flags"
+    },
+    {
+      "count": 0,
+      "label": "Executed cross-source joins",
+      "note": "record linkage; not source attribution"
+    },
+    {
+      "count": 0,
+      "label": "Public source determinations",
+      "note": "none; screening and evidence convergence only"
+    }
+  ],
+  "interpretation_limits": [
+    "Ambient monitoring does not automatically prove source attribution.",
+    "Stack emissions, ambient concentrations, exposure and health outcomes are separate evidence classes.",
+    "WHO-style benchmark context is shown only as public-health context, not as evidence of causation or contribution by any source or location.",
+    "UKHSA-style balance is preserved: current automated output does not override regulator or public-health determinations."
+  ],
+  "official_air": {
+    "interpretation": "Official/open monitoring provenance and comparator context only; not source attribution.",
+    "laqn_endpoint_count": 5,
+    "laqn_endpoint_ok_count": 5,
+    "ok": true,
+    "uk_air_entries": 542,
+    "uk_air_source_links": 5305,
+    "uk_air_years": [
+      2026,
+      2025
+    ]
+  },
+  "pollutant_scope": [
+    {
+      "evidence_role": "England fine-particle monitoring and regional-pattern context",
+      "pollutant": "PM2.5",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 5 µg/m³ annual; 15 µg/m³ 24-hour"
+    },
+    {
+      "evidence_role": "England coarse-particle monitoring and regional-pattern context",
+      "pollutant": "PM10",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 15 µg/m³ annual; 45 µg/m³ 24-hour"
+    },
+    {
+      "evidence_role": "Combustion and traffic context; not a source-specific marker",
+      "pollutant": "NO₂",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 10 µg/m³ annual; 25 µg/m³ 24-hour"
+    },
+    {
+      "evidence_role": "Regional and industrial-combustion context",
+      "pollutant": "SO₂",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 40 µg/m³ 24-hour"
+    },
+    {
+      "evidence_role": "Secondary-pollutant and regional-photochemistry context",
+      "pollutant": "O₃",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 100 µg/m³ 8-hour; 60 µg/m³ peak season"
+    },
+    {
+      "evidence_role": "General combustion context",
+      "pollutant": "CO",
+      "status": "Benchmark ready: no attribution",
+      "who_context": "WHO AQG: 4 mg/m³ 24-hour"
+    },
+    {
+      "evidence_role": "Specialist regulatory and industrial-process evidence",
+      "pollutant": "HCl / HF",
+      "status": "Permit matrix needed",
+      "who_context": "permit/regulatory emissions context"
+    },
+    {
+      "evidence_role": "Agricultural, secondary-particle and industrial-process context",
+      "pollutant": "NH₃",
+      "status": "Permit matrix needed",
+      "who_context": "permit/regulatory emissions context"
+    },
+    {
+      "evidence_role": "Specialist ambient, deposition and regulatory evidence",
+      "pollutant": "Heavy metals",
+      "status": "Permit matrix needed",
+      "who_context": "permit/stack-testing context"
+    },
+    {
+      "evidence_role": "Specialist sampling, deposition and biomonitoring evidence",
+      "pollutant": "Dioxins / furans / PAHs",
+      "status": "Manual review required",
+      "who_context": "persistent organic pollutant context"
+    }
+  ],
+  "purpose": "Compact API-led scientific data model for AQ26 public charts and reviewer-facing graphics.",
+  "readiness_gates": [
+    {
+      "gate": "Source acquired",
+      "key": "source_acquired",
+      "kind": "complete",
+      "raw_status": "complete_primary_measurements",
+      "status": "Complete primary measurements"
+    },
+    {
+      "gate": "Provenance recorded",
+      "key": "provenance_recorded",
+      "kind": "complete",
+      "raw_status": "complete_current_measurement_provenance",
+      "status": "Complete current measurement provenance"
+    },
+    {
+      "gate": "Parser validated",
+      "key": "parser_validated",
+      "kind": "complete",
+      "raw_status": "quality_validated_current_measurements",
+      "status": "Quality validated current measurements"
+    },
+    {
+      "gate": "Time alignment checked",
+      "key": "time_alignment_checked",
+      "kind": "not_applicable",
+      "raw_status": "not_applicable_no_fresh_screening_events",
+      "status": "Not applicable no fresh screening events"
+    },
+    {
+      "gate": "Monitor role checked",
+      "key": "monitor_role_checked",
+      "kind": "partial",
+      "raw_status": "candidate_monitor_roles_unvalidated",
+      "status": "Candidate monitor roles unvalidated"
+    },
+    {
+      "gate": "Meteorology checked",
+      "key": "meteorology_checked",
+      "kind": "partial",
+      "raw_status": "official_observations_available_event_alignment_not_applicable",
+      "status": "Official observations available event alignment not applicable"
+    },
+    {
+      "gate": "Comparator checked",
+      "key": "comparator_checked",
+      "kind": "not_applicable",
+      "raw_status": "not_applicable_no_fresh_screening_events_monitor_roles_pending",
+      "status": "Not applicable no fresh screening events monitor roles pending"
+    },
+    {
+      "gate": "Reviewer challenge recorded",
+      "key": "reviewer_challenge_recorded",
+      "kind": "partial",
+      "raw_status": "claim_framework_started",
+      "status": "Claim framework started"
+    }
+  ],
+  "status": "visual_review_layer_ready",
+  "summary_metrics": {
+    "drive_inventory": 0,
+    "executed_cross_source_joins": 0,
+    "fresh_physical_sites": 127,
+    "legacy_archive_inventory": 0,
+    "official_permit_or_filing_records": 0,
+    "primary_measurement_timeseries": 239,
+    "public_claim_level": "Screening and readiness notes only",
+    "public_safe_records": 0,
+    "quarantined_legacy_records": 0,
+    "rejected_generic_matches": 0,
+    "screening_events": 0,
+    "target_matched_records": 0,
+    "validated_legacy_records": 0
+  },
+  "target_bars": []
+}

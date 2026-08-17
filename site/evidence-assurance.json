@@ -1,0 +1,37 @@
+{
+  "schema": "aq26_evidence_assurance_presence_v1",
+  "generated_at_utc": "2026-08-17T13:00:37+00:00",
+  "framework_public_name": "AQ26 Evidence Assurance Framework",
+  "technical_shorthand": "VVIP",
+  "definitions": {
+    "validation": "Requirements, data contracts, calculations, models and publication rules are tested.",
+    "verification": "Live outputs match the reviewed evidence package.",
+    "integrity": "Unreviewed paths, leakage, unsupported claims and duplicate publication are prevented.",
+    "provenance": "Every public result remains traceable through source, transformation, artifact, deployment and publication."
+  },
+  "release_context": {
+    "generated_at_utc": "2026-08-17T12:59:37+00:00",
+    "run_mode": "weekly",
+    "harvest": "passed",
+    "scientific": "not_applicable_no_screening_events",
+    "assessment": "not_assessable_incomplete_england_coverage",
+    "publication_authority": true,
+    "website_publication_allowed": true,
+    "social_publication_allowed": true,
+    "email_publication_allowed": false,
+    "drive_publication_allowed": false,
+    "underlying_website_publication_eligibility": true,
+    "source_attribution_allowed": false,
+    "england_network_review_status": "complete_england_network_review",
+    "england_network_national_publication_ready": true,
+    "england_regions_reporting": 9,
+    "england_configured_stream_completeness_percent": 95.6
+  },
+  "presentation": {
+    "deterministic": true,
+    "ai_generated_during_release": false,
+    "decorative_assets_are_not_evidence": true,
+    "css_sha256": "bea6769976badf7923f2eb0430ebecea4458300b05f4301603e02ccb9a57abc5"
+  },
+  "endorsement_claimed": false
+}
