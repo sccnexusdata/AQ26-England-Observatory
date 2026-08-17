@@ -1,0 +1,26 @@
+{
+  "accepted_status_flags": {
+    "P": "provisional",
+    "P*": "as_supplied",
+    "R": "ratified"
+  },
+  "claim_boundary": "Descriptive official monitoring evidence only; no source attribution, causation, legal-compliance, personal-exposure or health-risk determination.",
+  "fields": {
+    "above_who_reference": "Contextual WHO 2021 24-hour comparison; null when the daily mean is invalid.",
+    "as_supplied_hourly_observations": "Hourly observations flagged P* by UK-AIR.",
+    "daily_mean_ug_m3": "Arithmetic mean of accepted hourly values in micrograms per cubic metre.",
+    "date": "Printed UK-AIR source calendar date used for the daily mean.",
+    "excluded_status_observations": "Numeric observations excluded because their status flag was not recognised.",
+    "expected_hours": "Twenty-four GMT hour-ending source slots per printed day.",
+    "hour_ending_24_observations": "Accepted 24:00 hour-ending observations retained in the printed source day.",
+    "hourly_observations": "Accepted R, P or P* hourly observations used in the mean.",
+    "pollutant": "AQ26 canonical pollutant token: NO2, PM10 or PM2.5.",
+    "provisional": "True when at least one P or P* value contributes to the daily mean.",
+    "provisional_hourly_observations": "Hourly observations flagged P by UK-AIR.",
+    "ratified_hourly_observations": "Hourly observations flagged R by UK-AIR.",
+    "source_url": "Official annual UK-AIR source file used for the station-day.",
+    "valid_daily_mean": "True when the accepted hourly-count rule is met."
+  },
+  "schema": "aq26_england_review_data_dictionary_v1",
+  "time_basis": "GMT hour ending; daily aggregation uses the printed source calendar date"
+}

@@ -1,0 +1,3727 @@
+{
+  "type": "FeatureCollection",
+  "name": "AQ26 active English AURN pollutant-monitor registry",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.567043,
+          55.182956
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01118",
+        "site_id": "ASHC",
+        "name": "Ashington Centre",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01118"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.534526,
+          54.516956
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01155",
+        "site_id": "DARF",
+        "name": "Darlington Firthmoor",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01155"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.203838,
+          54.683242
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00645",
+        "site_id": "HSAW",
+        "name": "Hartlepool St Abbs Walk",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00645"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.45317,
+          55.18158
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01085",
+        "site_id": "KIEW",
+        "name": "Kielder Water",
+        "region": "North East",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01085"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.220874,
+          54.569297
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00220",
+        "site_id": "MID",
+        "name": "Middlesbrough",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00220"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.610528,
+          54.97825
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00213",
+        "site_id": "NEWC",
+        "name": "Newcastle Centre",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00213"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.595362,
+          54.986405
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00528",
+        "site_id": "NCA3",
+        "name": "Newcastle Cradlewell Roadside",
+        "region": "North East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00528"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.475944,
+          55.010756
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01159",
+        "site_id": "NOSC",
+        "name": "North Shields Chirton",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01159"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.077845,
+          54.600476
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01154",
+        "site_id": "REMW",
+        "name": "Redcar Milford Walk",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01154"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.3159,
+          54.565819
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00599",
+        "site_id": "SOTR",
+        "name": "Stockton-on-Tees A1305 Roadside",
+        "region": "North East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00599"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.358547,
+          54.516667
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00535",
+        "site_id": "EAGL",
+        "name": "Stockton-on-Tees Eaglescliffe",
+        "region": "North East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00535"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.406878,
+          54.88361
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00484",
+        "site_id": "SUN2",
+        "name": "Sunderland Silksworth",
+        "region": "North East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00484"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.408391,
+          54.91839
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00601",
+        "site_id": "SUNR",
+        "name": "Sunderland Wessington Way",
+        "region": "North East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00601"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.024942,
+          53.388624
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00625",
+        "site_id": "BBRD",
+        "name": "Birkenhead Borough Road",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00625"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.45268,
+          53.747763
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00590",
+        "site_id": "BLAR",
+        "name": "Blackburn Accrington Road",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00590"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.467873,
+          53.74673
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01025",
+        "site_id": "BLAP",
+        "name": "Blackburn Audley Park",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01025"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.007175,
+          53.80489
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00488",
+        "site_id": "BLC2",
+        "name": "Blackpool Marton",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00488"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.033232,
+          53.810975
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01049",
+        "site_id": "BLWD",
+        "name": "Blackpool Whitegate Drive",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01049"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.293772,
+          53.559029
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00598",
+        "site_id": "BURW",
+        "name": "Bury Whitefield Roadside",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00598"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.964955,
+          54.885823
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00932",
+        "site_id": "CARM",
+        "name": "Carlisle Morton A595",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00932"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.453492,
+          53.115941
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00659",
+        "site_id": "COPP",
+        "name": "Crewe Coppenhall",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00659"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.472056,
+          53.46008
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00170",
+        "site_id": "GLAZ",
+        "name": "Glazebury",
+        "region": "North West",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00170"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.844333,
+          53.34633
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00247",
+        "site_id": "LVP",
+        "name": "Liverpool Speke",
+        "region": "North West",
+        "environment_type": "Urban Industrial",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00247"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.960989,
+          53.424225
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01095",
+        "site_id": "LVPT",
+        "name": "Liverpool Thirlmere Park",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01095"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.237881,
+          53.48152
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00248",
+        "site_id": "MAN3",
+        "name": "Manchester Piccadilly",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00248"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.238917,
+          53.371722
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00617",
+        "site_id": "MAHG",
+        "name": "Manchester Sharston",
+        "region": "North West",
+        "environment_type": "Suburban Industrial",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00617"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.447951,
+          53.194019
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01051",
+        "site_id": "MIMW",
+        "name": "Middlewich St Michael's Way",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01051"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.680353,
+          53.76559
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00408",
+        "site_id": "PRES",
+        "name": "Preston",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00408"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.146989,
+          53.621603
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01174",
+        "site_id": "ROCB",
+        "name": "Rochdale Belfield",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01174"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.334139,
+          53.48481
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00339",
+        "site_id": "ECCL",
+        "name": "Salford Eccles",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00339"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.093844,
+          53.579227
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00579",
+        "site_id": "CW",
+        "name": "Shaw Crompton Way",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00579"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.742134,
+          53.451826
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00627",
+        "site_id": "SHLW",
+        "name": "St Helens Linkway",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00627"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.113912,
+          53.482437
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01099",
+        "site_id": "TAMM",
+        "name": "Tameside A635 Manchester Road",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01099"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.615593,
+          53.389225
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00538",
+        "site_id": "WAR",
+        "name": "Warrington",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00538"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73168,
+          53.365391
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00603",
+        "site_id": "WSMR",
+        "name": "Widnes Milton Road",
+        "region": "North West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00603"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.638139,
+          53.54914
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00482",
+        "site_id": "WIG5",
+        "name": "Wigan Centre",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00482"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.022722,
+          53.37287
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00406",
+        "site_id": "TRAN",
+        "name": "Wirral Tranmere",
+        "region": "North West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00406"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.510436,
+          53.56292
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00353",
+        "site_id": "BAR3",
+        "name": "Barnsley Gawber",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00353"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.759774,
+          53.771245
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00611",
+        "site_id": "BDMA",
+        "name": "Bradford Mayo Avenue",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00611"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.743742,
+          53.795169
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01090",
+        "site_id": "BRAS",
+        "name": "Bradford Shipley Airedale Road",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01090"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.790806,
+          53.800617
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01161",
+        "site_id": "BRWP",
+        "name": "Bradford West Park",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01161"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.637111,
+          53.693104
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00654",
+        "site_id": "DYAG",
+        "name": "Dewsbury Ashworth Grange",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00654"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.13806,
+          53.518383
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00612",
+        "site_id": "DCST",
+        "name": "Doncaster A630 Cleveland Street",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00612"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.511011,
+          53.993714
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01093",
+        "site_id": "HARW",
+        "name": "Harrogate Woodlands",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01093"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.80882,
+          54.334497
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00169",
+        "site_id": "HM",
+        "name": "High Muffles",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00169"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.341222,
+          53.74878
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00450",
+        "site_id": "HUL2",
+        "name": "Hull Freetown",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00450"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.305678,
+          53.759013
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00600",
+        "site_id": "HULR",
+        "name": "Hull Holderness Road",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00600"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.213324,
+          53.619241
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00647",
+        "site_id": "IMGM",
+        "name": "Immingham Woodlands Avenue",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00647"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.546472,
+          53.80378
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00222",
+        "site_id": "LEED",
+        "name": "Leeds Centre",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00222"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.576361,
+          53.819972
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00527",
+        "site_id": "LED6",
+        "name": "Leeds Headingley Kerbside",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00527"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.323872,
+          53.436248
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01054",
+        "site_id": "ROED",
+        "name": "Rotherham East Dene",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01054"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.636811,
+          53.58634
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00381",
+        "site_id": "SCN2",
+        "name": "Scunthorpe Town",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Industrial",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00381"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.455815,
+          53.40495
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00622",
+        "site_id": "SHBR",
+        "name": "Sheffield Barnsley Road",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00622"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.478096,
+          53.378622
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00575",
+        "site_id": "SHDG",
+        "name": "Sheffield Devonshire Green",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00575"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.396139,
+          53.41058
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00181",
+        "site_id": "SHE",
+        "name": "Sheffield Tinsley",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00181"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.522209,
+          53.68736
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01107",
+        "site_id": "WAKA",
+        "name": "Wakefield Alverthorpe",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01107"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.086514,
+          53.967513
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00523",
+        "site_id": "YK10",
+        "name": "York Bootham",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00523"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.075861,
+          53.951889
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00524",
+        "site_id": "YK11",
+        "name": "York Fishergate",
+        "region": "Yorkshire and the Humber",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00524"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.454946,
+          53.244131
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00604",
+        "site_id": "CHLG",
+        "name": "Chesterfield Loundsley Green",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00604"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.456928,
+          53.231751
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00529",
+        "site_id": "CHS7",
+        "name": "Chesterfield Roadside",
+        "region": "East Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00529"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.469507,
+          52.922983
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00630",
+        "site_id": "DESA",
+        "name": "Derby St Alkmund's Way",
+        "region": "East Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00630"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.492166,
+          52.916059
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01027",
+        "site_id": "DESB",
+        "name": "Derby Stockbrook Park",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01027"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.752006,
+          53.40337
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00171",
+        "site_id": "LB",
+        "name": "Ladybower",
+        "region": "East Midlands",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00171"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.124267,
+          52.638742
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00609",
+        "site_id": "LEIR",
+        "name": "Leicester A594 Roadside",
+        "region": "East Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00609"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.127182,
+          52.619904
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00573",
+        "site_id": "LECU",
+        "name": "Leicester University",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00573"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.534204,
+          53.221432
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00561",
+        "site_id": "LIN3",
+        "name": "Lincoln Canwick Road",
+        "region": "East Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00561"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.227659,
+          52.780359
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01103",
+        "site_id": "LOTA",
+        "name": "Loughborough Thorpe Acre",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01103"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.208302,
+          53.145302
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01050",
+        "site_id": "MALA",
+        "name": "Mansfield Ladybrook",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01050"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.916605,
+          52.272257
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00632",
+        "site_id": "NTN4",
+        "name": "Northampton Spring Park",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00632"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.230107,
+          52.969102
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01092",
+        "site_id": "NOTB",
+        "name": "Nottingham Bilborough",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01092"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.13865,
+          52.959441
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01048",
+        "site_id": "NOTK",
+        "name": "Nottingham Kenmore Gardens",
+        "region": "East Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01048"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.188851,
+          52.969377
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00618",
+        "site_id": "NWBV",
+        "name": "Nottingham Western Boulevard",
+        "region": "East Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00618"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.381,
+          52.656308
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01038",
+        "site_id": "TALL",
+        "name": "Tallington",
+        "region": "East Midlands",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01038"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.449788,
+          53.374133
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01026",
+        "site_id": "TOFT",
+        "name": "Toft Newton",
+        "region": "East Midlands",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01026"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.479622,
+          52.485839
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01158",
+        "site_id": "BEDC",
+        "name": "Bedworth Collycroft",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01158"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.874978,
+          52.476145
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00626",
+        "site_id": "BIRR",
+        "name": "Birmingham A4540 Roadside",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00626"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.830956,
+          52.437553
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01062",
+        "site_id": "BIHG",
+        "name": "Birmingham Hall Green",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01062"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.918235,
+          52.481346
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00655",
+        "site_id": "BMLD",
+        "name": "Birmingham Ladywood",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00655"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.928937,
+          52.455515
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01108",
+        "site_id": "BAQF",
+        "name": "Birmingham University",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01108"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.635718,
+          52.82105
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00652",
+        "site_id": "BOTR",
+        "name": "Burton-on-Trent Horninglow",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00652"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.980821,
+          52.687298
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00623",
+        "site_id": "CANK",
+        "name": "Cannock A5190 Roadside",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00623"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.560189,
+          52.411628
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00592",
+        "site_id": "COAL",
+        "name": "Coventry Allesley",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00592"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.490082,
+          52.407708
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00634",
+        "site_id": "COBR",
+        "name": "Coventry Binley Road",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00634"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.533119,
+          52.28881
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00265",
+        "site_id": "LEAM",
+        "name": "Leamington Spa",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00265"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.542911,
+          52.294884
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00564",
+        "site_id": "LEAR",
+        "name": "Leamington Spa Rugby Road",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00564"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.73684,
+          52.221593
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00489",
+        "site_id": "LEOM",
+        "name": "Leominster",
+        "region": "West Midlands",
+        "environment_type": "Suburban Background",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00489"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.003497,
+          52.502436
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00595",
+        "site_id": "BOLD",
+        "name": "Oldbury Birmingham Road",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00595"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.726833,
+          52.715083
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01055",
+        "site_id": "SHUN",
+        "name": "Shrewsbury Underdale",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01055"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.111898,
+          52.980436
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00610",
+        "site_id": "STKR",
+        "name": "Stoke-on-Trent A50 Roadside",
+        "region": "West Midlands",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00610"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.175133,
+          53.02821
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00337",
+        "site_id": "STOK",
+        "name": "Stoke-on-Trent Centre",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00337"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.436692,
+          52.673471
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00648",
+        "site_id": "TDHD",
+        "name": "Telford Hollinswood",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00648"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.983799,
+          52.574031
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01117",
+        "site_id": "WALD",
+        "name": "Walsall Caldmore",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01117"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.030371,
+          52.605641
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00565",
+        "site_id": "WAL4",
+        "name": "Walsall Woodlands",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00565"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.98607,
+          52.508342
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00658",
+        "site_id": "WBKP",
+        "name": "West Bromwich Kenrick Park",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00658"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.095736,
+          52.587571
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01162",
+        "site_id": "WOLE",
+        "name": "Wolverhampton East Park",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01162"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.180563,
+          52.209364
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01098",
+        "site_id": "WORT",
+        "name": "Worcester Tolladine",
+        "region": "West Midlands",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01098"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.27055,
+          51.661229
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00644",
+        "site_id": "",
+        "name": "Borehamwood Meadow Park",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00644"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.139191,
+          52.230135
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01115",
+        "site_id": "CAMK",
+        "name": "Cambridge King's Hedges",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01115"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.124456,
+          52.20237
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00396",
+        "site_id": "CAM",
+        "name": "Cambridge Roadside",
+        "region": "East of England",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00396"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.46211,
+          51.892293
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00605",
+        "site_id": "LUTR",
+        "name": "Luton A505 Roadside",
+        "region": "East of England",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00605"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.302686,
+          52.614823
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00549",
+        "site_id": "NO12",
+        "name": "Norwich Lakenfields",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00549"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.248945,
+          52.594012
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01052",
+        "site_id": "PEGE",
+        "name": "Peterborough Garton End",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01052"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.463497,
+          52.2944
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00012",
+        "site_id": "SIB",
+        "name": "Sibton",
+        "region": "East of England",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00012"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.792578,
+          51.537836
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01096",
+        "site_id": "SOUS",
+        "name": "Southend Shoeburyness",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01096"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.678331,
+          51.544166
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00409",
+        "site_id": "SEND",
+        "name": "Southend-on-Sea",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00409"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.04901,
+          51.777874
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00445",
+        "site_id": "OSY",
+        "name": "St Osyth",
+        "region": "East of England",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00445"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.439548,
+          51.518167
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00525",
+        "site_id": "",
+        "name": "Stanford-le-Hope Roadside",
+        "region": "East of England",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00525"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.19937,
+          51.903112
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01156",
+        "site_id": "STGW",
+        "name": "Stevenage St Georges Way South",
+        "region": "East of England",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01156"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.317969,
+          51.47707
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00272",
+        "site_id": "",
+        "name": "Thurrock",
+        "region": "East of England",
+        "environment_type": "Urban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00272"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          1.122017,
+          52.95049
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00433",
+        "site_id": "WEYB",
+        "name": "Weybourne",
+        "region": "East of England",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00433"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.290917,
+          52.2985
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00362",
+        "site_id": "WFEN",
+        "name": "Wicken Fen",
+        "region": "East of England",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00362"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.175228,
+          51.544233
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00259",
+        "site_id": "",
+        "name": "Camden Kerbside",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00259"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.265617,
+          51.51895
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00591",
+        "site_id": "",
+        "name": "Ealing Horn Lane",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00591"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.068218,
+          51.5993
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00260",
+        "site_id": "",
+        "name": "Haringey Roadside",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00260"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.059503,
+          51.614224
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01119",
+        "site_id": "LONC",
+        "name": "London A406 N Circular",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01119"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.184806,
+          51.46603
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00238",
+        "site_id": "",
+        "name": "London Bexley",
+        "region": "London",
+        "environment_type": "Suburban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00238"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125889,
+          51.52229
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00211",
+        "site_id": "CLL2",
+        "name": "London Bloomsbury",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00211"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.104522,
+          51.514741
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01104",
+        "site_id": "",
+        "name": "London Farringdon Street",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01104"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.125254,
+          51.584128
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00568",
+        "site_id": "",
+        "name": "London Haringey Priory Park South",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00568"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.441614,
+          51.48879
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00472",
+        "site_id": "HRL",
+        "name": "London Harlington",
+        "region": "London",
+        "environment_type": "Urban Industrial",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00472"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.460861,
+          51.49633
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00266",
+        "site_id": "HIL",
+        "name": "London Hillingdon",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00266"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.037418,
+          51.449674
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00656",
+        "site_id": "",
+        "name": "London Honor Oak Park",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00656"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.154611,
+          51.52253
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00315",
+        "site_id": "",
+        "name": "London Marylebone Road",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00315"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.213419,
+          51.52105
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00253",
+        "site_id": "",
+        "name": "London N. Kensington",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00253"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.12748,
+          51.41004
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01100",
+        "site_id": "LONM",
+        "name": "London Norbury Manor School",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01100"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.345606,
+          51.425286
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00572",
+        "site_id": "TED2",
+        "name": "London Teddington Bushy Park",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00572"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.131931,
+          51.49467
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00435",
+        "site_id": "HORS",
+        "name": "London Westminster",
+        "region": "London",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00435"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.05955,
+          51.480499
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00558",
+        "site_id": "",
+        "name": "Southwark A2 Old Kent Road",
+        "region": "London",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00558"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.793884,
+          51.822161
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01109",
+        "site_id": "AYLA",
+        "name": "Aylesbury A4157",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01109"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.147572,
+          50.840836
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00483",
+        "site_id": "BRT3",
+        "name": "Brighton Preston Park",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00483"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.54797,
+          51.374264
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00553",
+        "site_id": "CHAT",
+        "name": "Chatham Roadside",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00553"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.438228,
+          51.149617
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00614",
+        "site_id": "CHBO",
+        "name": "Chilbolton Observatory",
+        "region": "South East",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00614"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.271611,
+          50.805778
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00546",
+        "site_id": "EB",
+        "name": "Eastbourne",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00546"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.764982,
+          51.307583
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01097",
+        "site_id": "FARC",
+        "name": "Farnborough Cherrywood",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01097"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.167734,
+          51.165865
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00511",
+        "site_id": "",
+        "name": "Horley",
+        "region": "South East",
+        "environment_type": "Suburban Industrial",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00511"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.18125,
+          50.7937
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00152",
+        "site_id": "LH",
+        "name": "Lullington Heath",
+        "region": "South East",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00152"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.526348,
+          51.268519
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01064",
+        "site_id": "MAID",
+        "name": "Maidstone Upper Stone Street",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01064"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.761013,
+          52.044076
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00963",
+        "site_id": "MKCC",
+        "name": "Milton Keynes Civic Centre",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00963"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.257463,
+          51.751745
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00258",
+        "site_id": "OX",
+        "name": "Oxford Centre Roadside",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00258"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.260278,
+          51.744806
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00518",
+        "site_id": "OX8",
+        "name": "Oxford St Ebbes",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00518"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.068583,
+          50.82881
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00421",
+        "site_id": "PMTH",
+        "name": "Portsmouth",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00421"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.095558,
+          50.798339
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00651",
+        "site_id": "POAR",
+        "name": "Portsmouth Anglesea Road",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00651"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.940382,
+          51.454896
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00620",
+        "site_id": "REA5",
+        "name": "Reading London Road",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00620"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.944067,
+          51.45309
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00462",
+        "site_id": "REA1",
+        "name": "Reading New Town",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00462"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.976081,
+          51.4459
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01053",
+        "site_id": "RRKL",
+        "name": "Reading Rose Kiln Lane",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01053"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.634889,
+          51.45617
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00251",
+        "site_id": "ROCH",
+        "name": "Rochester Stoke",
+        "region": "South East",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00251"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.610392,
+          51.51223
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01091",
+        "site_id": "SLOW",
+        "name": "Slough Windmill Bath Road",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01091"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.463484,
+          50.920265
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00613",
+        "site_id": "SA33",
+        "name": "Southampton A33",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00613"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.395757,
+          50.908173
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00235",
+        "site_id": "SOUT",
+        "name": "Southampton Centre",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00235"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.449548,
+          50.916932
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00548",
+        "site_id": "STOR",
+        "name": "Storrington Roadside",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00548"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.379916,
+          50.832947
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00628",
+        "site_id": "WTHG",
+        "name": "Worthing A27 Roadside",
+        "region": "South East",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00628"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.353272,
+          50.817286
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01061",
+        "site_id": "WOEA",
+        "name": "Worthing East Ten Acres",
+        "region": "South East",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01061"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.041924,
+          51.074793
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00574",
+        "site_id": "BPLE",
+        "name": "Barnstaple A39",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00574"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.35503,
+          51.390922
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00660",
+        "site_id": "BHA4",
+        "name": "Bath A4 Roadside",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00660"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.826744,
+          50.73957
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00429",
+        "site_id": "BORN",
+        "name": "Bournemouth",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00429"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.927742,
+          50.740961
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01160",
+        "site_id": "BOBV",
+        "name": "Bournemouth Bourne Valley",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01160"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.984988,
+          51.125113
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01120",
+        "site_id": "BRIW",
+        "name": "Bridgwater A372 Westonzoyland",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01120"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.58642,
+          51.529672
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01116",
+        "site_id": "BRSP",
+        "name": "Bristol Patchway",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01116"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.584482,
+          51.462839
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00494",
+        "site_id": "BRS8",
+        "name": "Bristol St Paul's",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00494"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.583975,
+          51.457968
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00631",
+        "site_id": "BR11",
+        "name": "Bristol Temple Way",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00631"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.68345,
+          51.05625
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00537",
+        "site_id": "MACK",
+        "name": "Charlton Mackrell",
+        "region": "South West",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00537"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.113747,
+          51.896592
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01101",
+        "site_id": "CHGR",
+        "name": "Cheltenham A40 Gloucester Road",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01101"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.780888,
+          50.735454
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00624",
+        "site_id": "CHBR",
+        "name": "Christchurch Barrack Road",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00624"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.532465,
+          50.725083
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00263",
+        "site_id": "EX",
+        "name": "Exeter Roadside",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00263"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.234996,
+          51.849673
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA01102",
+        "site_id": "GLOT",
+        "name": "Gloucester Tredworth",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA01102"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.196702,
+          50.792287
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00566",
+        "site_id": "HONI",
+        "name": "Honiton",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00566"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.142361,
+          50.37167
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00360",
+        "site_id": "PLYM",
+        "name": "Plymouth Centre",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00360"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.130288,
+          50.411058
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00629",
+        "site_id": "PLYR",
+        "name": "Plymouth Tavistock Road",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00629"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.227678,
+          50.411463
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00569",
+        "site_id": "SASH",
+        "name": "Saltash Callington Road",
+        "region": "South West",
+        "environment_type": "Urban Traffic",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00569"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -1.765678,
+          51.558061
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00650",
+        "site_id": "SWHO",
+        "name": "Swindon Walcot",
+        "region": "South West",
+        "environment_type": "Urban Background",
+        "target_pollutants": [
+          "PM2.5",
+          "PM10",
+          "NO2"
+        ],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00650"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.71651,
+          50.5976
+        ]
+      },
+      "properties": {
+        "uka_id": "UKA00168",
+        "site_id": "YW",
+        "name": "Yarner Wood",
+        "region": "South West",
+        "environment_type": "Rural Background",
+        "target_pollutants": [],
+        "detail_url": "https://uk-air.defra.gov.uk/networks/site-info?uka_id=UKA00168"
+      }
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "schema": "aq26_public_observatory_content_summary_v1",
+  "source_run_id": "32043856756",
+  "source_commit_sha": "6e2ddafa20e30001b67181f0a037c3d43de31be0",
+  "generated_from_governed_release_utc": "2026-08-17T16:00:51+00:00",
+  "england_30_day_review": {
+    "period_start": "2026-07-18",
+    "period_end": "2026-08-16",
+    "active_aurn_sites_discovered": 171,
+    "configured_target_pollutant_stations": 142,
+    "reporting_stations": 141,
+    "regions_reporting": 9,
+    "valid_pollutant_day_observations": 9469,
+    "unique_station_days": 4186,
+    "configured_stream_day_completeness_percent": 95.6,
+    "who_context_pollutant_day_observations": 173,
+    "who_context_by_pollutant": {
+      "NO2": 141,
+      "PM10": 4,
+      "PM2.5": 28
+    },
+    "national_publication_ready": true,
+    "data_status": "provisional_or_as_supplied"
+  },
+  "current_monitoring": {
+    "public_label": "ASSESSMENT UNAVAILABLE",
+    "assessment_status": "not_assessable_incomplete_england_coverage",
+    "assessment_message": "No England-wide current environmental assessment is published because the governed monitoring coverage and freshness gate was not met.",
+    "resolved_physical_sites": 134,
+    "numeric_reporting_sites": 132,
+    "fresh_physical_sites": 124,
+    "configured_pollutant_streams": 239,
+    "numeric_reporting_streams": 236,
+    "fresh_pollutant_streams": 222,
+    "eligible_pm25_screening_assessments": 116,
+    "preliminary_pm25_screening_candidates": 0
+  },
+  "source_catalogue": {
+    "catalogue_source_count": 54,
+    "observed_source_count": 54,
+    "failed_source_count": 0,
+    "stage_counts": {
+      "archive_disabled": 1,
+      "credential_present": 7,
+      "metadata_only": 6,
+      "not_applicable_no_discovered_event": 4,
+      "not_configured": 28,
+      "quality_validated": 2,
+      "records_downloaded": 6
+    }
+  },
+  "research_case_study": {
+    "schema": "aq26_retrospective_pm25_case_study_v1",
+    "case_date": "2026-07-17",
+    "case_type": "retrospective_multi_region_pm25_context_day",
+    "source_review_period_start": "2026-07-17",
+    "source_review_period_end": "2026-08-15",
+    "station_rows": 124,
+    "valid_station_daily_means": 121,
+    "who_2021_pm25_24h_context_crossings": 80,
+    "regions_with_valid_pm25": [
+      "East Midlands",
+      "East of England",
+      "London",
+      "North East",
+      "North West",
+      "South East",
+      "South West",
+      "West Midlands",
+      "Yorkshire and the Humber"
+    ],
+    "regions_with_context_crossings": [
+      "East Midlands",
+      "East of England",
+      "London",
+      "North East",
+      "North West",
+      "South East",
+      "South West",
+      "West Midlands",
+      "Yorkshire and the Humber"
+    ],
+    "maximum_valid_daily_mean_ug_m3": 24.171,
+    "maximum_station_name": "Manchester Piccadilly",
+    "data_statuses": [
+      "contains_provisional"
+    ],
+    "scientific_boundary": "This frozen case is descriptive. A multi-region PM2.5 pattern or WHO-context crossing does not establish source attribution, causation, individual exposure, health effect, permit breach or legal non-compliance."
+  },
+  "scientific_boundary": "AQ26 provides descriptive evidence, reproducible screening and provenance. No single observation, model, inventory, satellite product, record or proximity relationship establishes source attribution, causation, personal exposure, health effect, permit breach, operator fault or legal non-compliance."
+}
