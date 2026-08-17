@@ -1,11 +1,6 @@
 {
-  "file_count": 148,
+  "file_count": 147,
   "files": [
-    {
-      "bytes": 2900,
-      "path": "README.md",
-      "sha256": "b79e08a3dd6e8089fb64a0d3141cb6567d9c687e050a9c1f05d21339bd549919"
-    },
     {
       "bytes": 3061,
       "path": "data/latest/public_release_status.json",
@@ -742,12 +737,16 @@
       "sha256": "23ae899b1498d430c6be32163a293b9de0a93806e23cde38c04589385c1467ad"
     }
   ],
-  "generated_at_utc": "2026-08-17T13:29:37.317330+00:00",
-  "github_run_id": "32032340435",
-  "proposed_public_repository": "sccnexusdata/AQ26-England-Observatory",
+  "generated_utc": "2026-08-17T13:29:37.317330+00:00",
+  "public_repository": "sccnexusdata/AQ26-England-Observatory",
   "publication_mode": "one_way_sanitized_export",
-  "schema": "aq26_public_repository_export_v1",
+  "release_state": "published",
+  "schema_version": 1,
   "scientific_boundary": "Export approval establishes only that material passed the AQ26 public-export contract. It does not establish source attribution, causation, health effect, exposure, permit breach or legal non-compliance.",
-  "source_commit_sha": "9589fd660eb87687ab0f243dfc842de6d4d90c78",
-  "total_bytes": 13559308
+  "source": {
+    "repository_role": "private_aq26_scientific_engine",
+    "source_commit": "9589fd660eb87687ab0f243dfc842de6d4d90c78",
+    "source_run_id": "32032340435"
+  },
+  "total_bytes": 13556408
 }
