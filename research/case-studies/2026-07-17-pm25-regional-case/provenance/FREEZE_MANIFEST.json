@@ -1,0 +1,24 @@
+{
+  "schema": "aq26_case_study_freeze_manifest_v1",
+  "source_workflow_run_id": "31942538927",
+  "source_commit_sha": "5d7afd63aa5d90d4b3fdcb911ec549727b89cf08",
+  "source_review_pack_sha256": "5c6b4110d228f234a501a94208d45b56ee1328d0e63187c4ea178644aa339ccd",
+  "source_30_day_csv_sha256": "800ad0b366fbc5736fe476d52bda6c559ccb7a6c842872beb8cf1ebb46b02d39",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 1416,
+      "sha256": "f53ed11f10da2b76608eaa2dda22de37e83fd57e327095a1286dffca49669b7f"
+    },
+    {
+      "path": "data/2026-07-17-pm25-station-daily-evidence.csv",
+      "bytes": 44603,
+      "sha256": "d6978d8d1571a4ca4d7f1dc99f48b5cd3dbc780efeb77d292db745973a3339e1"
+    },
+    {
+      "path": "summary.json",
+      "bytes": 1171,
+      "sha256": "f20df59e653adedf733f7f65129fcf342c1da52157ba119b8484597c069a5ced"
+    }
+  ]
+}
