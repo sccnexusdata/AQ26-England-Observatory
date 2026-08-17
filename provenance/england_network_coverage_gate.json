@@ -1,0 +1,39 @@
+{
+  "schema": "aq26_england_network_coverage_gate_v3",
+  "generated_at_utc": "2026-08-17T16:01:44.997725+00:00",
+  "status": "pass",
+  "national_publication_ready": true,
+  "strict_completion_requested": false,
+  "errors": [],
+  "warnings": [
+    "1 region-pollutant cells meet the hard floor but remain below the national stream threshold; publish the exception table."
+  ],
+  "regional_coverage_exceptions": [
+    {
+      "region": "London",
+      "pollutant": "PM10",
+      "expected_pollutant_day_observations": 180,
+      "expected_station_days": 180,
+      "valid_pollutant_day_observations": 148,
+      "valid_station_days": 148,
+      "reporting_stations": 5,
+      "completeness_percent": 82.2,
+      "meets_minimum_cell_floor": true,
+      "meets_national_stream_threshold": false,
+      "coverage_status": "meets_minimum_floor_with_exception"
+    }
+  ],
+  "metrics": {
+    "regions_reporting": 9,
+    "configured_regions": 9,
+    "active_aurn_sites_discovered": 171,
+    "reporting_stations": 141,
+    "valid_pollutant_day_observations": 9469,
+    "expected_configured_pollutant_day_observations": 9900,
+    "configured_stream_day_completeness_percent": 95.6,
+    "region_pollutant_cell_count": 27,
+    "time_basis_assurance_status": "pass",
+    "parsed_24_00_pollutant_observations": 71204
+  },
+  "publication_effect": "national AURN coverage-contract claim and guarded social publication permitted"
+}

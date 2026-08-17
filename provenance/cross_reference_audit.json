@@ -1,0 +1,1238 @@
+{
+  "baseline_definition": "Standing facility/monitor identity and geometry linkage, reported separately from episode joins. It cannot satisfy an episode-evidence dimension or authorise a scientific claim.",
+  "baseline_structural_executed_join_count": 0,
+  "baseline_structural_join_count": 1,
+  "baseline_structural_joins": {
+    "facility_monitor_baseline_spatial": {
+      "claim_boundary": "No configured facility dossier is created without a data-discovered event and an explicit post-discovery activation receipt.",
+      "duplicate_match_rate": 0.0,
+      "episode_applicable": false,
+      "episode_evidence_produced": false,
+      "execution_status": "not_applicable_no_discovered_event",
+      "facilities": [],
+      "facility_dossier_population_count": 0,
+      "join_id": "facility_monitor_baseline_spatial",
+      "join_scope": "post_discovery_structural_context",
+      "joined_row_count": 0,
+      "left_row_count": 0,
+      "linkage_validated": false,
+      "match_rate": null,
+      "matched_left_row_count": 0,
+      "right_row_count": 0,
+      "schema": "aq26_facility_monitor_baseline_v1",
+      "scientific_claim_publication_allowed": false,
+      "status": "not_applicable_no_discovered_event",
+      "unmatched_left_row_count": 0,
+      "validated_join": false,
+      "validation_stage": "not_applicable"
+    }
+  },
+  "baseline_structural_validated_join_count": 0,
+  "blocked_joins": [
+    "facility_planning",
+    "receptor_population",
+    "aggregate_health_context"
+  ],
+  "candidate_input_join_count": 8,
+  "claim_boundary": "Executed and validated joins establish reproducible record linkage only. Source attribution additionally requires official meteorology, validated comparator roles and explicit competing-source analysis.",
+  "dimension_readiness_definitions": {
+    "candidate": "At least one source reached its source-specific candidate-input threshold.",
+    "executed_episode_linkage": "A configured dimension-specific join executed against an eligible episode.",
+    "operational": "At least one source supplied downloaded records.",
+    "quality_validated": "At least one source reached the AQ26 quality-validated stage; this is not source-attribution validation.",
+    "registered": "At least one named source exists in the run catalogue; no access or scientific utility is implied.",
+    "validated_episode_linkage": "The executed join passed technical linkage validation; causation remains unestablished."
+  },
+  "dimensions_without_executed_episode_linkage": [
+    "comparator_and_background",
+    "official_meteorology",
+    "fire_and_satellite_context",
+    "regulatory_and_operational_context"
+  ],
+  "dimensions_without_operational_sources": [
+    "traffic_activity"
+  ],
+  "dimensions_without_quality_validated_sources": [
+    "official_meteorology",
+    "traffic_activity",
+    "regional_model_context",
+    "fire_and_satellite_context",
+    "regulatory_and_operational_context",
+    "competing_source_assessment"
+  ],
+  "dimensions_without_registered_candidate_sources": [],
+  "dimensions_without_validated_episode_linkage": [
+    "comparator_and_background",
+    "official_meteorology"
+  ],
+  "entity_count": 12,
+  "episode_dimensions": [
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 239,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 827,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "ground_measurement_quality",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": true,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "quality_validated_source_available_linkage_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 239,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "uk_air_atom",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 827,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "openaq",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "eea_air_quality",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "emep_ebas",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "comparator_and_background",
+      "episode_linkage_configured": true,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": true,
+      "registered_source_available": true,
+      "related_join_id": "observation_regional_background",
+      "status": "quality_validated_source_available_linkage_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "met_office_land_observations",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 576,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "official_meteorology",
+      "episode_linkage_configured": true,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": "observation_meteorology_temporal",
+      "status": "operational_source_available_quality_validation_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "dft_road_traffic",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 16,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "national_highways_webtris",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "traffic_activity",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": false,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "candidate_source_available",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "cams",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 2,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "regional_model_context",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "operational_source_available_quality_validation_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "nasa_firms",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 2003,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "cdse_sentinel5p",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "nasa_earthdata_cmr",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 26,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "fire_and_satellite_context",
+      "episode_linkage_configured": true,
+      "join_executed": false,
+      "join_validated": true,
+      "operational_source_available": true,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": "observation_fire",
+      "status": "validated_context_join_available",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "environment_agency_public_register",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 23579,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "sepa_public_register",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "nrw_public_register",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "niea_records",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "naei",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "uk_prtr",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "regulatory_and_operational_context",
+      "episode_linkage_configured": true,
+      "join_executed": false,
+      "join_validated": true,
+      "operational_source_available": true,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": "monitor_facility_spatial",
+      "status": "validated_context_join_available",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "dft_road_traffic",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 16,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "nasa_firms",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 2003,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "naei",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "uk_prtr",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "not_applicable_no_discovered_event",
+          "candidate_input_usable": false,
+          "id": "openweather",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "met_office_land_observations",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 576,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "cams",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 2,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "competing_source_assessment",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": false,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "operational_source_available_quality_validation_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 239,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 827,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "uncertainty_and_missingness",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": true,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "quality_validated_source_available_linkage_pending",
+      "validated_for_episode_conclusion": false
+    },
+    {
+      "candidate_source_available": true,
+      "candidate_sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 239,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": true,
+          "record_count": 827,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "environment_agency_public_register",
+          "minimum_stage": "records_downloaded",
+          "operational_records_available": true,
+          "quality_validated": false,
+          "record_count": 23579,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "cdse_sentinel5p",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 0,
+          "registered_in_run_catalogue": true
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "nasa_earthdata_cmr",
+          "minimum_stage": "metadata_only",
+          "operational_records_available": false,
+          "quality_validated": false,
+          "record_count": 26,
+          "registered_in_run_catalogue": true
+        }
+      ],
+      "dimension": "complete_provenance",
+      "episode_linkage_configured": false,
+      "join_executed": false,
+      "join_validated": false,
+      "operational_source_available": true,
+      "quality_validated_source_available": true,
+      "registered_source_available": true,
+      "related_join_id": null,
+      "status": "quality_validated_source_available_linkage_pending",
+      "validated_for_episode_conclusion": false
+    }
+  ],
+  "executed_join_count": 0,
+  "facility_dossier_population_count": 0,
+  "join_count": 11,
+  "joins": [
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "facility_operator",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "company_number",
+        "legal_name",
+        "historic_names"
+      ],
+      "left": "facility",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "operator",
+      "sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "environment_agency_public_register",
+          "minimum_stage": "records_downloaded",
+          "record_count": 23579
+        },
+        {
+          "actual_stage": "credential_present",
+          "candidate_input_usable": false,
+          "id": "companies_house",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 1,
+      "validated_join": false,
+      "validation": "exact_identifier_preferred_manual_review_for_name_only",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "facility_permit",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "permit_number",
+        "installation_number"
+      ],
+      "left": "facility",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "permit_record",
+      "sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "environment_agency_public_register",
+          "minimum_stage": "records_downloaded",
+          "record_count": 23579
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "sepa_public_register",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "nrw_public_register",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "niea_records",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 1,
+      "validated_join": false,
+      "validation": "exact_regulator_identifier_required",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": "A validated geometry join confirms distance and bearing only; proximity cannot identify a pollution source.",
+      "derived_fields": [
+        "distance_km",
+        "bearing_degrees",
+        "monitor_role"
+      ],
+      "duplicate_match_rate": 0.0,
+      "episode_status": "not_applicable_no_screening_events",
+      "execution_attempted": false,
+      "execution_status": "no_screening_events",
+      "has_joined_records": false,
+      "id": "monitor_facility_spatial",
+      "join_applicable": false,
+      "joined_row_count": 0,
+      "keys": [
+        "latitude",
+        "longitude"
+      ],
+      "left": "monitor",
+      "match_rate": null,
+      "matched_left_row_count": 0,
+      "right": "facility",
+      "sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "record_count": 239
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "uk_air_atom",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "record_count": 827
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "openaq",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_applicable_no_discovered_event",
+          "candidate_input_usable": false,
+          "id": "waqi",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "purpleair",
+          "minimum_stage": "records_downloaded",
+          "record_count": 292
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": 0,
+      "usable_source_count": 3,
+      "validated_join": false,
+      "validation": "coordinates_and_station_role_required",
+      "validation_stage": "coordinate_geometry_join_validated_source_relationship_not_inferred"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": "Official meteorological alignment provides contextual weather evidence only. It does not establish source contribution, causation, exposure, health effect or compliance.",
+      "derived_fields": [
+        "wind_sector",
+        "upwind_downwind_class",
+        "rainfall_context",
+        "stability_context"
+      ],
+      "duplicate_match_rate": null,
+      "episode_status": "not_applicable_no_screening_events",
+      "execution_attempted": false,
+      "execution_status": "no_screening_events",
+      "has_joined_records": false,
+      "id": "observation_meteorology_temporal",
+      "join_applicable": false,
+      "joined_row_count": 0,
+      "keys": [
+        "timestamp_utc"
+      ],
+      "left": "monitor",
+      "match_rate": null,
+      "matched_left_row_count": 0,
+      "right": "weather_station",
+      "sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "met_office_land_observations",
+          "minimum_stage": "records_downloaded",
+          "record_count": 576
+        },
+        {
+          "actual_stage": "not_applicable_no_discovered_event",
+          "candidate_input_usable": false,
+          "id": "openweather",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "cams",
+          "minimum_stage": "metadata_only",
+          "record_count": 2
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": 0,
+      "usable_source_count": 2,
+      "validated_join": false,
+      "validation": "maximum_time_offset_and_units_required",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": null,
+      "derived_fields": [
+        "distance_km",
+        "vehicle_flow",
+        "hgv_flow",
+        "estimation_method"
+      ],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "observation_traffic",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "timestamp_utc",
+        "latitude",
+        "longitude"
+      ],
+      "left": "monitor",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "traffic_count_point",
+      "sources": [
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "dft_road_traffic",
+          "minimum_stage": "metadata_only",
+          "record_count": 16
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "national_highways_webtris",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 1,
+      "validated_join": false,
+      "validation": "counted_preferred_estimated_flag_preserved",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": "A validated join means fire detections were clustered and time/geometry were computed reproducibly; it does not establish plume transport or source contribution.",
+      "derived_fields": [
+        "distance_km",
+        "bearing_degrees",
+        "hours_from_detection"
+      ],
+      "duplicate_match_rate": 0.0,
+      "episode_status": "not_applicable_no_screening_events",
+      "execution_attempted": false,
+      "execution_status": "executed",
+      "has_joined_records": false,
+      "id": "observation_fire",
+      "join_applicable": false,
+      "joined_row_count": 0,
+      "keys": [
+        "timestamp_utc",
+        "latitude",
+        "longitude"
+      ],
+      "left": "monitor",
+      "match_rate": null,
+      "matched_left_row_count": 0,
+      "right": "fire_detection",
+      "sources": [
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "nasa_firms",
+          "minimum_stage": "records_downloaded",
+          "record_count": 2003
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "nasa_earthdata_cmr",
+          "minimum_stage": "metadata_only",
+          "record_count": 26
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": true,
+          "id": "cdse_sentinel5p",
+          "minimum_stage": "metadata_only",
+          "record_count": 0
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": 0,
+      "usable_source_count": 3,
+      "validated_join": false,
+      "validation": "satellite_detection_is_context_not_ground_concentration",
+      "validation_stage": "satellite_detection_clustering_geometry_and_time_join_validated"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": "Comparator linkage describes monitoring coherence under explicit compatibility rules. It does not establish a pollution source, population exposure, causation, health impact or regulatory status.",
+      "derived_fields": [
+        "local_minus_background",
+        "regional_episode_flag"
+      ],
+      "duplicate_match_rate": 0.0,
+      "episode_status": "not_applicable_no_screening_events",
+      "execution_attempted": false,
+      "execution_status": "no_screening_events",
+      "has_joined_records": false,
+      "id": "observation_regional_background",
+      "join_applicable": false,
+      "joined_row_count": 0,
+      "keys": [
+        "pollutant",
+        "timestamp_utc"
+      ],
+      "left": "monitor",
+      "match_rate": null,
+      "matched_left_row_count": 0,
+      "right": "monitor",
+      "sources": [
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "uk_air_sos_current_particle",
+          "minimum_stage": "quality_validated",
+          "record_count": 239
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "uk_air_atom",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "quality_validated",
+          "candidate_input_usable": true,
+          "id": "laqn_imperial",
+          "minimum_stage": "records_downloaded",
+          "record_count": 827
+        },
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "openaq",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "eea_air_quality",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "emep_ebas",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "cams",
+          "minimum_stage": "metadata_only",
+          "record_count": 2
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": 0,
+      "usable_source_count": 3,
+      "validated_join": false,
+      "validation": "method_units_and_averaging_period_must_match",
+      "validation_stage": "role_method_unit_period_alignment_checked"
+    },
+    {
+      "candidate_inputs_available": true,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "facility_emissions",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "permit_number",
+        "installation_number",
+        "company_number",
+        "reporting_year"
+      ],
+      "left": "facility",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "evidence_object",
+      "sources": [
+        {
+          "actual_stage": "metadata_only",
+          "candidate_input_usable": false,
+          "id": "naei",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "uk_prtr",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "records_downloaded",
+          "candidate_input_usable": true,
+          "id": "environment_agency_public_register",
+          "minimum_stage": "records_downloaded",
+          "record_count": 23579
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "waste_data_interrogator",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "candidate_inputs_available",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 1,
+      "validated_join": false,
+      "validation": "pollutant_units_reporting_threshold_and_year_required",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": false,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "facility_planning",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "application_reference",
+        "site_boundary",
+        "operator_name"
+      ],
+      "left": "facility",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "planning_record",
+      "sources": [
+        {
+          "actual_stage": "not_applicable_no_discovered_event",
+          "candidate_input_usable": false,
+          "id": "planning_data",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "local_planning_portals",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "blocked_missing_inputs",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 0,
+      "validated_join": false,
+      "validation": "authority_reference_or_spatial_intersection_required",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": false,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "receptor_population",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "latitude",
+        "longitude",
+        "official_geography_code"
+      ],
+      "left": "sensitive_receptor",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "population_geography",
+      "sources": [
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "ons_geography",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "ons_census_api",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "credential_present",
+          "candidate_input_usable": false,
+          "id": "nomis",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "imd",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "get_information_about_schools",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "cqc_care_directory",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        },
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "natural_england_designated_sites",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "blocked_missing_inputs",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 0,
+      "validated_join": false,
+      "validation": "official_geography_and_reference_date_required",
+      "validation_stage": "input_source_readiness_only"
+    },
+    {
+      "candidate_inputs_available": false,
+      "claim_boundary": null,
+      "derived_fields": [],
+      "duplicate_match_rate": null,
+      "episode_status": null,
+      "execution_attempted": false,
+      "execution_status": "not_executed_or_not_demonstrated",
+      "has_joined_records": false,
+      "id": "aggregate_health_context",
+      "join_applicable": false,
+      "joined_row_count": null,
+      "keys": [
+        "official_geography_code",
+        "indicator_id",
+        "reference_period"
+      ],
+      "left": "population_geography",
+      "match_rate": null,
+      "matched_left_row_count": null,
+      "right": "evidence_object",
+      "sources": [
+        {
+          "actual_stage": "not_configured",
+          "candidate_input_usable": false,
+          "id": "ohid_fingertips",
+          "minimum_stage": "records_downloaded",
+          "record_count": 0
+        }
+      ],
+      "status": "blocked_missing_inputs",
+      "unmatched_left_row_count": null,
+      "usable_source_count": 0,
+      "validated_join": false,
+      "validation": "aggregate_context_only_no_individual_or_causal_inference",
+      "validation_stage": "input_source_readiness_only"
+    }
+  ],
+  "missing_dimensions": [],
+  "pending_or_blocked_join_count": 11,
+  "policy": {
+    "mode": "evidence_led_cross_reference",
+    "prohibited_shortcuts": [
+      "infer_source_from_proximity_alone",
+      "infer_causation_from_temporal_coincidence_alone",
+      "treat_model_or_satellite_values_as_ground_measurements",
+      "treat_operator_reports_as_regulator_authored",
+      "treat_missing_data_as_zero",
+      "treat_aqi_indices_as_mass_concentrations"
+    ],
+    "rule": "Every analytical statement must retain the source record, retrieval event, parser version, raw-response hash, units, time basis, coordinate basis, quality flags and transformation lineage."
+  },
+  "ready_join_count": 0,
+  "ready_join_count_definition": "A ready join has executed against real records with measured match metrics and passed its stated identifier/time/geometry validation. It does not validate source contribution or causation.",
+  "release_rule": "An episode may be published as an observation only after measurement QA. Any source hypothesis additionally requires meteorology, comparator evidence and explicit competing-source analysis.",
+  "required_dimension_count": 10,
+  "scientifically_unvalidated_dimensions": [
+    "official_meteorology",
+    "traffic_activity",
+    "regional_model_context",
+    "fire_and_satellite_context",
+    "regulatory_and_operational_context",
+    "competing_source_assessment"
+  ],
+  "status": "cross_reference_execution_assessed",
+  "validated_join_count": 0
+}

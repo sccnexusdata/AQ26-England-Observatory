@@ -1,0 +1,16 @@
+{
+  "checks": [
+    "canonical measurement/provider count identity",
+    "canonical quality-flag alias reconciliation",
+    "operational summary to public-release measurement reconciliation",
+    "rendered reporting-stream denominator reconciliation",
+    "pollutant-day versus unique station-day semantic separation",
+    "canonical-to-public England geography reconciliation",
+    "assessment-status label and publication-kind reconciliation",
+    "JSON-to-forensic-report-to-rendered-HTML assessment-state reconciliation"
+  ],
+  "error_count": 0,
+  "errors": [],
+  "schema": "aq26_public_metric_semantics_gate_v1",
+  "status": "pass"
+}

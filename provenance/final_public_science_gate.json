@@ -1,0 +1,42 @@
+{
+  "finding_count": 0,
+  "inspected_extensions": [
+    ".html",
+    ".php"
+  ],
+  "mutated_public_documents": false,
+  "passed": true,
+  "publication_authority": false,
+  "schema": "aq26_final_public_science_gate_v2",
+  "scientific_boundary": "Operational PM2.5 screening and descriptive monitoring evidence only; no validated anomaly claim, source attribution, health finding or regulatory determination.",
+  "status": "pass",
+  "surfaces": [
+    {
+      "finding_count": 0,
+      "findings": [],
+      "html_file_count": 41,
+      "passed": true,
+      "php_file_count": 0,
+      "renderable_file_count": 41,
+      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_public"
+    },
+    {
+      "finding_count": 0,
+      "findings": [],
+      "html_file_count": 42,
+      "passed": true,
+      "php_file_count": 0,
+      "renderable_file_count": 42,
+      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_test"
+    },
+    {
+      "finding_count": 0,
+      "findings": [],
+      "html_file_count": 1,
+      "passed": true,
+      "php_file_count": 7,
+      "renderable_file_count": 8,
+      "surface": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_unredacted"
+    }
+  ]
+}

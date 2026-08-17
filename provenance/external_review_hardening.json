@@ -1,0 +1,543 @@
+{
+  "schema": "aq26_external_review_hardening_v1",
+  "generated_at_utc": "2026-08-17T16:02:03+00:00",
+  "public_name": "This Air Quality Project",
+  "repository": "https://github.com/pythongitgub/AirQuality_England_Observatory",
+  "principles": [
+    "monitoring findings precede engineering status",
+    "automated assurance is not peer review or endorsement",
+    "project evolution is disclosed",
+    "internal acronyms and CI labels are not public scientific badges",
+    "supplementary locations do not seed the monitoring screen"
+  ],
+  "roots": {
+    "site_public": {
+      "accessibility.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "ai-model-assurance.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "archive.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      },
+      "citation.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "contact.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "cookies.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "current-data.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "discovery.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "downloads.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 5,
+        "review_panels": 1
+      },
+      "effects-framework.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 14,
+        "review_panels": 1
+      },
+      "england-air-quality-review.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "environment-agency-permit-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "glossary.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "health-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "impact-and-use.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "incineration-air-quality-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "index.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "interrogate.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 17,
+        "review_panels": 1
+      },
+      "legal.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "map.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 1,
+        "copy_replacements": 13,
+        "review_panels": 1
+      },
+      "methodology.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 13,
+        "review_panels": 2
+      },
+      "naei-emissions-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 15,
+        "review_panels": 1
+      },
+      "overall-report.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "planning-data-air-quality.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "pollutant-watchlist.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "privacy.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "readiness.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "review-pack.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 2
+      },
+      "scientific-review.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      },
+      "scientific-tool.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 18,
+        "review_panels": 1
+      },
+      "search-and-topics.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 20,
+        "review_panels": 1
+      },
+      "source-investigations.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 1
+      },
+      "source-utilisation.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 15,
+        "review_panels": 1
+      },
+      "sources.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "targets.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "terms.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "uk-air-monitoring-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "uk-air-quality-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "updates.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 14,
+        "review_panels": 1
+      },
+      "visuals.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 1
+      },
+      "weekly-report.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      }
+    },
+    "site_test": {
+      "accessibility.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "ai-model-assurance.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "archive.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      },
+      "citation.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "contact.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "cookies.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "current-data.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "discovery.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "downloads.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 5,
+        "review_panels": 1
+      },
+      "effects-framework.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 14,
+        "review_panels": 1
+      },
+      "england-air-quality-review.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "environment-agency-permit-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "glossary.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "health-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "impact-and-use.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "incineration-air-quality-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "index.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "interrogate.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "legal.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 12,
+        "review_panels": 1
+      },
+      "map.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 1,
+        "copy_replacements": 13,
+        "review_panels": 1
+      },
+      "methodology.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 13,
+        "review_panels": 2
+      },
+      "naei-emissions-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 15,
+        "review_panels": 1
+      },
+      "overall-report.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "planning-data-air-quality.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "pollutant-watchlist.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 16,
+        "review_panels": 1
+      },
+      "privacy.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "readiness.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "review-pack.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 2
+      },
+      "scientific-review.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      },
+      "scientific-tool.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 18,
+        "review_panels": 1
+      },
+      "search-and-topics.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 20,
+        "review_panels": 1
+      },
+      "source-investigations.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 1
+      },
+      "source-utilisation.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 15,
+        "review_panels": 1
+      },
+      "sources.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "targets.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 6,
+        "review_panels": 1
+      },
+      "terms.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 8,
+        "review_panels": 1
+      },
+      "uk-air-monitoring-context.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 10,
+        "review_panels": 1
+      },
+      "uk-air-quality-evidence.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 7,
+        "review_panels": 1
+      },
+      "updates.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 14,
+        "review_panels": 1
+      },
+      "visuals.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 11,
+        "review_panels": 1
+      },
+      "weekly-report.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 9,
+        "review_panels": 1
+      }
+    },
+    "site_unredacted": {
+      "ai-model-assurance.php": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 5,
+        "review_panels": 1
+      },
+      "evidence-register.php": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 0,
+        "review_panels": 1
+      },
+      "index.html": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 2,
+        "review_panels": 1
+      },
+      "index.php": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 5,
+        "review_panels": 1
+      },
+      "scientific-review.php": {
+        "stylesheet": 1,
+        "legacy_context_cards": 0,
+        "copy_replacements": 3,
+        "review_panels": 1
+      }
+    }
+  }
+}

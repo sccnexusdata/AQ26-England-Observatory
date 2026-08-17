@@ -1,0 +1,40 @@
+{
+  "authoritative_status": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/outputs/api/public_release_status.json",
+  "authoritative_summary": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/outputs/api/public_release_summary.json",
+  "canonical_monitoring_snapshot": "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/outputs/primary_ground/canonical_monitoring_snapshot.json",
+  "canonical_monitoring_snapshot_sha256": "c7efa2abd3213ccbf6010d8ca01d8aca5026cb8f0e244f5656c5e825401dfdc6",
+  "contract_sha256": "94c22935ca701e18f8dcf3d0f158ceebefef4ec8c0200850c224d841de0f8972",
+  "measurement": {
+    "analysis_excluded_observation_count": 862,
+    "analysis_window_valid_observation_count": 15868,
+    "count_reconciliation_passed": true,
+    "data_capture_percent": 100.0,
+    "fresh_physical_site_count": 124,
+    "fresh_timeseries_count": 222,
+    "physical_site_count": 134,
+    "provider_expected_slot_count": 16730,
+    "provider_missing_slot_count": 0,
+    "provider_numeric_observation_count": 16730,
+    "quality_accepted_data_capture_percent": 94.8,
+    "timeseries_count": 239
+  },
+  "provider_site_identity_count": 134,
+  "public_release_status_sha256": "db6bd4c0f8058ffe25976f645f9c9db130d08d19efaf51c24321f0ea42a19f20",
+  "public_release_summary_sha256": "4095565f74005059a281841240765374e951455b44d17281c2909bf647260b75",
+  "publication_authority": false,
+  "reporting_physical_site_count": 132,
+  "reporting_provider_site_identity_count": 132,
+  "schema": "aq26_final_release_contract_receipt_v1",
+  "sealed_at_utc": "2026-08-17T16:02:21+00:00",
+  "site_status_sha256": {
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_public/assets/data/public-release-status.json": "db6bd4c0f8058ffe25976f645f9c9db130d08d19efaf51c24321f0ea42a19f20",
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_test/assets/data/public-release-status.json": "db6bd4c0f8058ffe25976f645f9c9db130d08d19efaf51c24321f0ea42a19f20",
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_unredacted/assets/data/public-release-status.json": "db6bd4c0f8058ffe25976f645f9c9db130d08d19efaf51c24321f0ea42a19f20"
+  },
+  "site_summary_sha256": {
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_public/assets/data/public-release-summary.json": "4095565f74005059a281841240765374e951455b44d17281c2909bf647260b75",
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_test/assets/data/public-release-summary.json": "4095565f74005059a281841240765374e951455b44d17281c2909bf647260b75",
+    "/home/runner/work/AirQuality_England_Observatory/AirQuality_England_Observatory/site_unredacted/assets/data/public-release-summary.json": "4095565f74005059a281841240765374e951455b44d17281c2909bf647260b75"
+  },
+  "status": "pass"
+}

@@ -1,0 +1,152 @@
+{
+  "schema": "aq26_england_network_review_receipt_v2",
+  "generated_at_utc": "2026-08-17T16:02:19.342832+00:00",
+  "status": "pass",
+  "target_area": "England",
+  "review_status": "complete_england_network_review",
+  "national_publication_ready": true,
+  "coverage_gate_status": "pass",
+  "time_basis_assurance": {
+    "schema": "aq26_england_time_basis_assurance_v1",
+    "generated_at_utc": "2026-08-17T16:01:43.931737+00:00",
+    "status": "pass",
+    "time_basis": "GMT hour ending; daily aggregation uses the printed source calendar date",
+    "source_calendar_date_preserved": true,
+    "hour_ending_24_preserved": true,
+    "annual_files_with_parser_diagnostics": 142,
+    "source_24_00_rows": 32376,
+    "parsed_24_00_pollutant_observations": 71204,
+    "source_numeric_observations": 1703775,
+    "quality_accepted_observations": 1703775,
+    "excluded_unrecognised_status_observations": 0,
+    "status_flag_counts": {
+      "P": 1051800,
+      "R": 651975
+    },
+    "accepted_status_flags": {
+      "R": "ratified",
+      "P": "provisional",
+      "P*": "as_supplied"
+    },
+    "errors": []
+  },
+  "software_provenance": {
+    "git_commit": "6e2ddafa20e30001b67181f0a037c3d43de31be0",
+    "github_run_id": "32043856756",
+    "workflow": "AQ26 Daily and Weekly Scientific Observatory",
+    "parser_schema": "aq26_uk_air_hour_ending_parser_v2",
+    "review_schema": "aq26_england_network_review_v3"
+  },
+  "data_status_counts": {
+    "contains_provisional": 9469
+  },
+  "regional_coverage_exceptions": [
+    {
+      "region": "London",
+      "pollutant": "PM10",
+      "expected_pollutant_day_observations": 180,
+      "expected_station_days": 180,
+      "valid_pollutant_day_observations": 148,
+      "valid_station_days": 148,
+      "reporting_stations": 5,
+      "completeness_percent": 82.2,
+      "meets_minimum_cell_floor": true,
+      "meets_national_stream_threshold": false,
+      "coverage_status": "meets_minimum_floor_with_exception"
+    }
+  ],
+  "files": [
+    {
+      "path": "outputs/complete_period_review/england_30_day_evidence_review.json",
+      "bytes": 1070427,
+      "sha256": "fa0f41edbcf227ebb2684eb70c38609038e419145c6ee746a8caebb1060a00d0"
+    },
+    {
+      "path": "outputs/complete_period_review/england_30_day_daily_evidence.csv",
+      "bytes": 3421295,
+      "sha256": "aaa40dff343dc22bbcddc79f0c95e14810e94e0c8255f9555543ea20250e9537"
+    },
+    {
+      "path": "outputs/complete_period_review/england_active_aurn_station_registry.csv",
+      "bytes": 46989,
+      "sha256": "56b3459f27f7fe858fd655e075ab920da1c1a05e8e2cc45d9e285bb287acfc3e"
+    },
+    {
+      "path": "outputs/complete_period_review/england_active_aurn_station_registry.json",
+      "bytes": 94570,
+      "sha256": "c41feb40be155ace3a470f5a9f3adcf8d9d8dbc80a136a517fcbfc558b75d3f2"
+    },
+    {
+      "path": "outputs/complete_period_review/england_active_aurn_station_registry.geojson",
+      "bytes": 91818,
+      "sha256": "a5d8d736be1db9ae6b2a42c8956cfbbe2c53b85d51dc15ddaab1a7749e26a328"
+    },
+    {
+      "path": "outputs/complete_period_review/england_review_data_dictionary.json",
+      "bytes": 1690,
+      "sha256": "c87ec838b00395c09176a99a4964cdec46c4acf82f6035b8dc70d3816729cbdb"
+    },
+    {
+      "path": "outputs/scientific/england_network_coverage_gate.json",
+      "bytes": 1414,
+      "sha256": "77c99fdea65c993bcb230049678710f37bc47e604b33405a144c78ac281eda37"
+    },
+    {
+      "path": "outputs/scientific/england_time_basis_assurance.json",
+      "bytes": 748,
+      "sha256": "8e92f52b635f4e88cdc4e4dc99c950891c4216b22b63a1fc88b6e16d3a4f77fa"
+    },
+    {
+      "path": "outputs/scientific/measurement_snapshot_reconciliation.json",
+      "bytes": 2873,
+      "sha256": "0179bd700bd1a893d865a5db65f6d5f27e1f3ef6668ce702812d54a8a914dcf7"
+    },
+    {
+      "path": "configs/england_network_review.yml",
+      "bytes": 1312,
+      "sha256": "4a94ab1f0e7cba628f09c715a884309abdbe03f44fc3a2f0729673e5af1f6058"
+    },
+    {
+      "path": "scripts/aq26_england_network_review.py",
+      "bytes": 1382,
+      "sha256": "7fe97f9dff09103b7da04f23437fe7718e3c1988d2df7a78e31b506adc03ef2e"
+    },
+    {
+      "path": "scripts/aq26_england_network_discovery.py",
+      "bytes": 14357,
+      "sha256": "e83bc260fd7980ad900df039971d55e8ea9caa2cf53fd81fd423de052d50bb12"
+    },
+    {
+      "path": "scripts/aq26_england_network_measurements.py",
+      "bytes": 19997,
+      "sha256": "f1fa1dd9ecb63c2ecce0328a4630368c6907f607e74a9c711f7ab11c2c77bf6c"
+    },
+    {
+      "path": "scripts/aq26_england_network_summary.py",
+      "bytes": 22824,
+      "sha256": "19cee8eb506834741f968216d1c984a49800c49031d1d2530c0dc3472e2c4a9b"
+    },
+    {
+      "path": "scripts/aq26_england_network_presentation.py",
+      "bytes": 20762,
+      "sha256": "3b2585ae943b56f5dae540f39d9d6a7472d8f536a2ee71171d410d1215541e89"
+    },
+    {
+      "path": "scripts/aq26_england_network_execution.py",
+      "bytes": 17661,
+      "sha256": "b89551c498e593c421a4f717632d71990035aba2b43a21a26dfe2db1b9e5c656"
+    },
+    {
+      "path": "scripts/aq26_england_coverage_gate.py",
+      "bytes": 10569,
+      "sha256": "148b873b41f4b1f95200d68432a4f0c659d61c41681451de8690add7d44c5ccf"
+    }
+  ],
+  "claim_boundary": [
+    "descriptive observed concentrations and data completeness only",
+    "no source attribution or causation",
+    "no legal compliance determination",
+    "no individual exposure or health-risk determination",
+    "regional comparisons are shown only where the multi-station eligibility rule is met"
+  ]
+}
