@@ -10,17 +10,28 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: aq26-public-integrity-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   validate-public-repository:
+    name: Verify closed-world release and provenance
     runs-on: ubuntu-24.04
+    timeout-minutes: 10
     steps:
-      - name: Checkout repository
+      - name: Checkout exact repository revision
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
           python-version: '3.11'
+
+      - name: Compile validator
+        run: python -m compileall -q scripts
 
       - name: Validate public repository boundary
         run: python scripts/validate_public_repository.py
