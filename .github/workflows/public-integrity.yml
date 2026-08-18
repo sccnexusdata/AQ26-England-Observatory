@@ -30,8 +30,11 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Compile validator
-        run: python -m compileall -q scripts
+      - name: Compile validator and tests
+        run: python -m compileall -q scripts tests
+
+      - name: Run validator regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
 
       - name: Validate public repository boundary
         run: python scripts/validate_public_repository.py
