@@ -22,5 +22,8 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Run validator regression tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+
       - name: Validate public repository boundary
         run: python scripts/validate_public_repository.py
