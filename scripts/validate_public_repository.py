@@ -10,6 +10,13 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
 MAX_FILE_BYTES = 20 * 1024 * 1024
 ALLOWED_RELEASE_ROOTS = {"site", "data", "reports", "provenance"}
+# Transitional repository metadata predates the governed export. These two files are
+# intentionally outside the release manifest until the next private-engine export
+# takes ownership of them. No other unmanifested file is allowed under release roots.
+UNMANIFESTED_REPOSITORY_METADATA = {
+    "provenance/README.md",
+    "reports/latest/README.md",
+}
 FORBIDDEN_FILE_NAMES = {".env", ".env.local", "id_rsa", "id_ed25519"}
 FORBIDDEN_SUFFIXES = {".pem", ".p12", ".pfx", ".key"}
 FORBIDDEN_PATH_PARTS = {
@@ -67,6 +74,18 @@ def validate_tree(errors: list[str]) -> None:
                     fail(errors, f"{label} marker detected in: {rel}")
 
 
+def _release_tree_files() -> set[str]:
+    files: set[str] = set()
+    for root_name in sorted(ALLOWED_RELEASE_ROOTS):
+        root = ROOT / root_name
+        if not root.exists():
+            continue
+        for path in root.rglob("*"):
+            if path.is_file() and not path.is_symlink():
+                files.add(path.relative_to(ROOT).as_posix())
+    return files
+
+
 def validate_manifest(errors: list[str]) -> None:
     if not MANIFEST.exists():
         fail(errors, "PUBLIC_RELEASE_MANIFEST.json missing")
@@ -91,7 +110,12 @@ def validate_manifest(errors: list[str]) -> None:
     if state == "published" and not entries:
         fail(errors, "published release must contain at least one manifested file")
 
+    declared_count = data.get("file_count")
+    if declared_count != len(entries):
+        fail(errors, f"manifest file_count mismatch: declared {declared_count!r}, actual {len(entries)}")
+
     seen: set[str] = set()
+    actual_total_bytes = 0
     for entry in entries:
         if not isinstance(entry, dict):
             fail(errors, "manifest file entry must be an object")
@@ -104,7 +128,7 @@ def validate_manifest(errors: list[str]) -> None:
         if rel.is_absolute() or ".." in rel.parts:
             fail(errors, f"unsafe manifest path: {rel_text}")
             continue
-        if rel.parts[0] not in ALLOWED_RELEASE_ROOTS:
+        if not rel.parts or rel.parts[0] not in ALLOWED_RELEASE_ROOTS:
             fail(errors, f"manifest path outside approved release roots: {rel_text}")
             continue
         if rel_text in seen:
@@ -119,8 +143,36 @@ def validate_manifest(errors: list[str]) -> None:
         if expected_sha != sha256(target):
             fail(errors, f"SHA-256 mismatch: {rel_text}")
         expected_size = entry.get("bytes")
-        if expected_size != target.stat().st_size:
+        actual_size = target.stat().st_size
+        if expected_size != actual_size:
             fail(errors, f"size mismatch: {rel_text}")
+        else:
+            actual_total_bytes += actual_size
+
+    declared_total_bytes = data.get("total_bytes")
+    if declared_total_bytes != actual_total_bytes:
+        fail(
+            errors,
+            f"manifest total_bytes mismatch: declared {declared_total_bytes!r}, actual {actual_total_bytes}",
+        )
+
+    actual_release_files = _release_tree_files()
+    unexpected = sorted(actual_release_files - seen - UNMANIFESTED_REPOSITORY_METADATA)
+    if unexpected:
+        for rel_text in unexpected:
+            fail(errors, f"unmanifested release-tree file: {rel_text}")
+
+    if state == "published":
+        source = data.get("source")
+        if not isinstance(source, dict):
+            fail(errors, "published release must contain source provenance")
+        else:
+            commit = source.get("source_commit")
+            run_id = source.get("source_run_id")
+            if not isinstance(commit, str) or re.fullmatch(r"[0-9a-f]{40}", commit) is None:
+                fail(errors, "published release source_commit must be a 40-character Git SHA")
+            if not isinstance(run_id, str) or not run_id.isdigit():
+                fail(errors, "published release source_run_id must be a numeric GitHub run id")
 
 
 def main() -> int:
