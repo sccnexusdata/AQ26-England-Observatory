@@ -128,6 +128,39 @@ def _validate_source_metadata(errors: list[str], data: dict[str, Any], state: st
         fail(errors, "published release repository_role must be private_aq26_scientific_engine")
 
 
+def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) -> None:
+    if data.get("schema_version") != 2:
+        return
+
+    if data.get("manifest_policy") != "closed_world_release_tree":
+        fail(errors, "schema v2 manifest_policy must be closed_world_release_tree")
+
+    release_roots = data.get("release_roots")
+    if release_roots != sorted(ALLOWED_RELEASE_ROOTS):
+        fail(errors, f"schema v2 release_roots must be {sorted(ALLOWED_RELEASE_ROOTS)!r}")
+
+    publication = data.get("publication")
+    if not isinstance(publication, dict):
+        fail(errors, "schema v2 manifest must contain publication metadata")
+    elif publication.get("mode") != "one_way_sanitized_export":
+        fail(errors, "schema v2 publication mode must be one_way_sanitized_export")
+
+    exporter = data.get("exporter")
+    if not isinstance(exporter, dict):
+        fail(errors, "schema v2 manifest must contain exporter provenance")
+        return
+
+    if exporter.get("config_path") != "configs/public_repo_export.yml":
+        fail(errors, "schema v2 exporter config_path is not canonical")
+    if exporter.get("script_path") != "scripts/aq26_prepare_public_repo_export.py":
+        fail(errors, "schema v2 exporter script_path is not canonical")
+
+    for key in ("config_sha256", "script_sha256"):
+        value = exporter.get(key)
+        if not isinstance(value, str) or not SHA256_RE.fullmatch(value):
+            fail(errors, f"schema v2 exporter {key} must be a lowercase SHA-256 digest")
+
+
 def validate_manifest(errors: list[str]) -> None:
     if not MANIFEST.exists():
         fail(errors, "PUBLIC_RELEASE_MANIFEST.json missing")
@@ -150,6 +183,7 @@ def validate_manifest(errors: list[str]) -> None:
         fail(errors, f"invalid release_state: {state!r}")
 
     _validate_source_metadata(errors, data, state if isinstance(state, str) else None)
+    _validate_v2_exporter_provenance(errors, data)
 
     entries = data.get("files")
     if not isinstance(entries, list):
