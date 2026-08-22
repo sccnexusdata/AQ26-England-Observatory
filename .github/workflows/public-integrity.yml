@@ -24,11 +24,12 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 1
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
+          python-version: '3.11.15'
 
       - name: Compile validator and tests
         run: python -m compileall -q scripts tests
