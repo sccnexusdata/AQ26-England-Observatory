@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import datetime as dt
 import hashlib
 import json
 import re
@@ -11,6 +12,12 @@ ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "PUBLIC_RELEASE_MANIFEST.json"
 MAX_FILE_BYTES = 20 * 1024 * 1024
 ALLOWED_RELEASE_ROOTS = {"site", "data", "reports", "provenance"}
+CANONICAL_PRIVATE_REPOSITORY_ROLE = "private_aq26_scientific_engine"
+CANONICAL_SOURCE_WORKFLOW = "AQ26 Daily and Weekly Scientific Observatory"
+CANONICAL_PUBLIC_REPOSITORY = "sccnexusdata/AQ26-England-Observatory"
+CANONICAL_EXPORT_CONFIG = "configs/public_repo_export.yml"
+CANONICAL_EXPORT_SCRIPT = "scripts/aq26_prepare_public_repo_export.py"
+CANONICAL_PUBLICATION_AUTHORIZATION = "manual_governed_workflow_dispatch"
 FORBIDDEN_FILE_NAMES = {".env", ".env.local", "id_rsa", "id_ed25519"}
 FORBIDDEN_SUFFIXES = {".pem", ".p12", ".pfx", ".key"}
 FORBIDDEN_PATH_PARTS = {
@@ -40,9 +47,25 @@ TEXT_SCAN_SUFFIXES = {
     ".csv",
     ".xml",
 }
+EXECUTION_PATH_MARKERS = (
+    b"/home/runner/work/",
+    b"/github/workspace/",
+    b"D:\\a\\",
+)
+BLOCKED_PUBLIC_JSON_KEYS = {
+    "secrets_checked",
+    "resolved_secret_aliases",
+    "auth_secret",
+    "credential_name",
+    "credential_alias",
+    "credential_aliases",
+    "secret_name",
+    "secret_alias",
+}
 SHA256_RE = re.compile(r"^[0-9a-f]{64}$")
 COMMIT_SHA_RE = re.compile(r"^[0-9a-f]{40}$")
 RUN_ID_RE = re.compile(r"^[0-9]+$")
+RUN_ATTEMPT_RE = re.compile(r"^[1-9][0-9]*$")
 ALLOWED_STATES = {
     "withheld_pending_reconciliation",
     "candidate",
@@ -62,6 +85,38 @@ def sha256(path: Path) -> str:
 
 def fail(errors: list[str], message: str) -> None:
     errors.append(message)
+
+
+def _normalised_utc_timestamp(value: Any) -> str | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        parsed = dt.datetime.fromisoformat(value.strip().replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return None
+    return (
+        parsed.astimezone(dt.timezone.utc)
+        .replace(microsecond=0)
+        .isoformat()
+        .replace("+00:00", "Z")
+    )
+
+
+def _find_blocked_json_keys(value: Any, *, prefix: str = "$") -> list[str]:
+    found: list[str] = []
+    if isinstance(value, dict):
+        for key, item in value.items():
+            key_text = str(key)
+            child = f"{prefix}.{key_text}"
+            if key_text in BLOCKED_PUBLIC_JSON_KEYS:
+                found.append(child)
+            found.extend(_find_blocked_json_keys(item, prefix=child))
+    elif isinstance(value, list):
+        for index, item in enumerate(value):
+            found.extend(_find_blocked_json_keys(item, prefix=f"{prefix}[{index}]"))
+    return found
 
 
 def validate_tree(errors: list[str]) -> None:
@@ -124,8 +179,44 @@ def _validate_source_metadata(errors: list[str], data: dict[str, Any], state: st
         fail(errors, "published release source_run_id must be a GitHub Actions numeric run id")
 
     repository_role = source.get("repository_role")
-    if repository_role != "private_aq26_scientific_engine":
-        fail(errors, "published release repository_role must be private_aq26_scientific_engine")
+    if repository_role != CANONICAL_PRIVATE_REPOSITORY_ROLE:
+        fail(errors, f"published release repository_role must be {CANONICAL_PRIVATE_REPOSITORY_ROLE}")
+
+
+def _validate_schema_v2_source(errors: list[str], data: dict[str, Any]) -> None:
+    if data.get("schema_version") != 2 or data.get("release_state") != "published":
+        return
+    source = data.get("source")
+    if not isinstance(source, dict):
+        return
+
+    source_run_id = source.get("source_run_id")
+    if source.get("source_workflow") != CANONICAL_SOURCE_WORKFLOW:
+        fail(errors, f"schema v2 source_workflow must be {CANONICAL_SOURCE_WORKFLOW!r}")
+
+    source_run_attempt = source.get("source_run_attempt")
+    if not isinstance(source_run_attempt, str) or not RUN_ATTEMPT_RE.fullmatch(source_run_attempt):
+        fail(errors, "schema v2 source_run_attempt must be a positive numeric string")
+
+    expected_artifact = (
+        f"aq26-weekly-build-{source_run_id}"
+        if isinstance(source_run_id, str) and RUN_ID_RE.fullmatch(source_run_id)
+        else None
+    )
+    if expected_artifact is not None and source.get("source_artifact") != expected_artifact:
+        fail(errors, f"schema v2 source_artifact must be {expected_artifact!r}")
+
+    source_created_at = _normalised_utc_timestamp(source.get("source_run_created_at"))
+    if source_created_at is None:
+        fail(errors, "schema v2 source_run_created_at must be a timezone-aware ISO-8601 timestamp")
+        return
+    if source.get("source_run_created_at") != source_created_at:
+        fail(errors, "schema v2 source_run_created_at must be normalised UTC ending in Z")
+
+    if data.get("manifest_timestamp_basis") != "source_run_created_at":
+        fail(errors, "schema v2 manifest_timestamp_basis must be source_run_created_at")
+    if data.get("generated_utc") != source_created_at:
+        fail(errors, "schema v2 generated_utc must exactly equal source_run_created_at")
 
 
 def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) -> None:
@@ -142,23 +233,51 @@ def _validate_v2_exporter_provenance(errors: list[str], data: dict[str, Any]) ->
     publication = data.get("publication")
     if not isinstance(publication, dict):
         fail(errors, "schema v2 manifest must contain publication metadata")
-    elif publication.get("mode") != "one_way_sanitized_export":
-        fail(errors, "schema v2 publication mode must be one_way_sanitized_export")
+    else:
+        if publication.get("mode") != "one_way_sanitized_export":
+            fail(errors, "schema v2 publication mode must be one_way_sanitized_export")
+        if publication.get("target_repository") != CANONICAL_PUBLIC_REPOSITORY:
+            fail(errors, f"schema v2 publication target_repository must be {CANONICAL_PUBLIC_REPOSITORY}")
+        if publication.get("authorization") != CANONICAL_PUBLICATION_AUTHORIZATION:
+            fail(
+                errors,
+                f"schema v2 publication authorization must be {CANONICAL_PUBLICATION_AUTHORIZATION}",
+            )
 
     exporter = data.get("exporter")
     if not isinstance(exporter, dict):
         fail(errors, "schema v2 manifest must contain exporter provenance")
         return
 
-    if exporter.get("config_path") != "configs/public_repo_export.yml":
+    if exporter.get("config_path") != CANONICAL_EXPORT_CONFIG:
         fail(errors, "schema v2 exporter config_path is not canonical")
-    if exporter.get("script_path") != "scripts/aq26_prepare_public_repo_export.py":
+    if exporter.get("script_path") != CANONICAL_EXPORT_SCRIPT:
         fail(errors, "schema v2 exporter script_path is not canonical")
 
     for key in ("config_sha256", "script_sha256"):
         value = exporter.get(key)
         if not isinstance(value, str) or not SHA256_RE.fullmatch(value):
             fail(errors, f"schema v2 exporter {key} must be a lowercase SHA-256 digest")
+
+
+def _validate_v2_release_file_hygiene(errors: list[str], rel_text: str, target: Path) -> None:
+    if target.suffix.lower() not in TEXT_SCAN_SUFFIXES or target.stat().st_size > 5 * 1024 * 1024:
+        return
+    payload = target.read_bytes()
+    for marker in EXECUTION_PATH_MARKERS:
+        if marker in payload:
+            fail(errors, f"schema v2 execution path marker detected in release file: {rel_text}")
+            break
+
+    if target.suffix.lower() != ".json":
+        return
+    try:
+        value = json.loads(payload.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        fail(errors, f"schema v2 manifested JSON is invalid: {rel_text}: {exc}")
+        return
+    for json_path in _find_blocked_json_keys(value):
+        fail(errors, f"schema v2 blocked credential metadata key in {rel_text}: {json_path}")
 
 
 def validate_manifest(errors: list[str]) -> None:
@@ -183,6 +302,7 @@ def validate_manifest(errors: list[str]) -> None:
         fail(errors, f"invalid release_state: {state!r}")
 
     _validate_source_metadata(errors, data, state if isinstance(state, str) else None)
+    _validate_schema_v2_source(errors, data)
     _validate_v2_exporter_provenance(errors, data)
 
     entries = data.get("files")
@@ -237,6 +357,8 @@ def validate_manifest(errors: list[str]) -> None:
             fail(errors, f"SHA-256 mismatch: {rel_text}")
         if expected_size != target.stat().st_size:
             fail(errors, f"size mismatch: {rel_text}")
+        if schema_version == 2:
+            _validate_v2_release_file_hygiene(errors, rel_text, target)
 
     file_count = data.get("file_count")
     if file_count != len(entries):
@@ -267,7 +389,9 @@ def main() -> int:
         for error in errors:
             print(f" - {error}")
         return 1
-    print("AQ26 public repository validation passed: closed-world manifest, hashes and provenance verified")
+    print(
+        "AQ26 public repository validation passed: closed-world manifest, hashes, source identity and provenance verified"
+    )
     return 0
 
 
