@@ -1,6 +1,10 @@
 # AQ26 England Air Quality Observatory
 
+[![SCC Nexus](https://sccnexus.co.uk/assets/brand/scc-nexus-wordmark.webp)](https://sccnexus.co.uk/)
+
 **Public evidence, methodology and reproducibility surface for an independent England-wide air-quality and environmental evidence observatory.**
+
+AQ26 is an **SCC Nexus public-benefit evidence project**. The Air Quality identity remains primary; SCC Nexus provides the portfolio and governance affiliation: **Search · Corroborate · Communicate**.
 
 AQ26 combines official monitoring observations with meteorological, emissions, satellite, modelled and contextual evidence. The public repository is a governed output of a separate private scientific engine: only material that passes AQ26 public-release and export checks is copied here.
 
@@ -34,6 +38,12 @@ AQ26 does not claim ownership of third-party observations or datasets. Source-sp
 
 Questions, methodological critique, reproducibility checks and evidence-based corrections are welcome. Proposed changes to scientific interpretation should identify the relevant source, time period, units, quality state and supporting evidence rather than relying on proximity or temporal coincidence alone.
 
+## SCC Nexus affiliation
+
+- Portfolio: https://sccnexus.co.uk/
+- Public observatory: https://sccairquality.com/
+- Corrections and collaboration: hello@sccnexus.co.uk
+
 ---
 
-AQ26 is independent and is not an official Defra, Environment Agency, Met Office, Copernicus, NASA or local-authority service.
+AQ26 is independent and is not an official Defra, Environment Agency, Met Office, Copernicus, NASA or local-authority service. SCC Nexus affiliation does not imply endorsement by any external institution.
